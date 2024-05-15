@@ -16,7 +16,12 @@ body {
 
 /*Header*/
 header {
-    background-color: blue;
+    background-color:orange;
+}
+
+header a {
+    text-decoration: none;
+    color:inherit;
 }
 /*Main Content*/
 main {
