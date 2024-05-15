@@ -1,0 +1,30 @@
+/*Asterix wildcard selector to overide the default browser styles*/
+* {
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+/*General Styles*/
+body {
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /*generic styles*/
+    color:#3a3a3a;
+}
+
+/*Header*/
+header {
+    background-color: blue;
+}
+/*Main Content*/
+main {
+    background-color: blueviolet;
+    /*make main content take up any surpus space*/
+    flex:1 0 auto;
+}
+/*Footer*/
+footer {
+    background-color: brown;
+}
