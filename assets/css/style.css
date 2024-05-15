@@ -1,32 +1,38 @@
+/*imp[ort for Poetsen One font*/
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
 /*Asterix wildcard selector to overide the default browser styles*/
 * {
     padding: 0;
-    margin:0;
-    box-sizing:border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /*General Styles*/
 body {
-    display:flex;
+    display: flex;
     min-height: 100vh;
     flex-direction: column;
     /*generic styles*/
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
 
 /*Header*/
 header {
-    background-color:#ffffff;
-    position:fixed;
-    padding:0 1rem;
-    z-index:99;
-    width:100%;
+    background-color: #ffffff;
+    position: fixed;
+    padding: 0 1rem;
+    z-index: 99;
+    width: 100%;
     box-shadow: 0 3px #3a3a3a;
 }
 
 header a {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 .active {
@@ -38,8 +44,9 @@ header a {
 main {
     background-color: blueviolet;
     /*make main content take up any surplus space*/
-    flex:1 0 auto;
+    flex: 1 0 auto;
 }
+
 /*Footer*/
 footer {
     background-color: brown;
