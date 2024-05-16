@@ -1,5 +1,7 @@
-/*imp[ort for Poetsen One font*/
+/*import for Poetsen One font*/
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+/*import for Karla font*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
 
 /*Asterix wildcard selector to overide the default browser styles*/
 * {
@@ -15,6 +17,10 @@ body {
     flex-direction: column;
     /*generic styles*/
     color: #3a3a3a;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Header*/
@@ -25,9 +31,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px #3a3a3a;
-    display:flex;
-    justify-content:space-between;
-    align-items:baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -44,7 +50,7 @@ header a {
 }
 
 #menu li {
-    margin-bottom:0.5em;
+    margin-bottom: 0.5em;
 }
 
 nav {
@@ -86,5 +92,6 @@ main {
 
 /*Footer*/
 footer {
-    background-color: brown;
+    background-color: #FFFFFF;
+
 }
