@@ -25,6 +25,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px #3a3a3a;
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
 }
 
 header a {
@@ -33,6 +36,40 @@ header a {
     font-style: normal;
     text-decoration: none;
     color: inherit;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 100%;
+}
+
+#menu li {
+    margin-bottom:0.5em;
+}
+
+nav {
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #3a3a3a;
+    display: none;
+    /*top is assigned so the nav does not obscure the heading when toggled on*/
+    top: 100%;
+}
+
+/*Nav Toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.label-nav-toggle {
+    font-size: 2rem;
 }
 
 .active {
