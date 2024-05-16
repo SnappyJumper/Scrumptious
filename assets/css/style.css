@@ -91,7 +91,16 @@ main {
 }
 
 /*Footer*/
-footer {
-    background-color: #FFFFFF;
-
+#social-networks {
+    
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-top:1px solid #3a3a3a;
+    margin:0 10%;
 }
+
+
+
