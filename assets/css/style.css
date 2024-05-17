@@ -34,6 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #FFFFFF;
 }
 
 header a {
@@ -85,14 +86,17 @@ nav {
 
 /*Main Content*/
 main {
-    background-color: red;
+    background-color: rgb(247, 103, 103);
     /*make main content take up any surplus space*/
     flex: 1 0 auto;
 }
 
 /*Footer*/
+footer {
+    background-color: green;
+}
+
 #social-networks {
-    
     text-align: center;
     padding: 20px;
     display: flex;
@@ -100,12 +104,20 @@ main {
     list-style-type: none;
     border-bottom:1px solid #3a3a3a;
     margin:0 10%;
+    
 }
 
 #contact {
     text-align:center;
     font-size:60%;
+    color:white;
 }
+
+#social-networks i {
+    color:white;
+}
+
+
 
 
 
