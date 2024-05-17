@@ -98,8 +98,13 @@ main {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    border-top:1px solid #3a3a3a;
+    border-bottom:1px solid #3a3a3a;
     margin:0 10%;
+}
+
+#contact {
+    text-align:center;
+    font-size:60%;
 }
 
 
