@@ -25,12 +25,12 @@ body {
 
 /*Header*/
 header {
-    background-color: #ffffff;
+    background-color: green;
     position: fixed;
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px #3a3a3a;
+    box-shadow: 0 3px #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -41,7 +41,7 @@ header a {
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-    color: inherit;
+    color: #FFFFFF;
 }
 
 #menu {
@@ -55,11 +55,11 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: green;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px #3a3a3a;
+    box-shadow: 0 3px 3px #FFFFFF;
     display: none;
     /*top is assigned so the nav does not obscure the heading when toggled on*/
     top: 100%;
@@ -85,7 +85,7 @@ nav {
 
 /*Main Content*/
 main {
-    background-color: blueviolet;
+    background-color: red;
     /*make main content take up any surplus space*/
     flex: 1 0 auto;
 }
