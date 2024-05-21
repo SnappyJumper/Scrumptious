@@ -119,11 +119,11 @@ main {
     margin-left:20%;
     margin-right:20%;
     z-index: 20;
-
 }
 
-
-
+#hero-text p {
+    padding:10px;
+}
 /*Footer*/
 footer {
     background-color: green;
