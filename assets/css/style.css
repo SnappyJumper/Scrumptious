@@ -116,8 +116,8 @@ main {
     bottom: -50px;
     min-height: 100px;
     padding: 0 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    left: 20%;
+    right: 20%;
     z-index: 20;
 }
 
@@ -162,7 +162,12 @@ main {
     flex-direction: column;
 }
 
-
+.banners {
+    background-color: rgb(160, 30, 30);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
 
 
 /*Footer*/
@@ -190,3 +195,26 @@ footer {
 #social-networks i {
     color: white;
 }
+
+/*Media query for tablets or larger (768px and up)*/
+@media screen and (min-width: 768px) {
+
+    #hero-images {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hero-text {
+        font-size:200%;
+        position: absolute;
+        bottom: 0;
+        min-height: 100px;
+        min-width: 500px;
+        left:75%;
+    }
+
+}
+
+
+/*Media query for laptop screens and up*/
+@media screen and (min-width: 992px) {}
