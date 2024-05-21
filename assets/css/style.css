@@ -126,7 +126,7 @@ main {
 }
 
 #hero-text p {
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .hidden-heading {
