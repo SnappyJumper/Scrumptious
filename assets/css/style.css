@@ -89,41 +89,85 @@ main {
     /*make main content take up any surplus space*/
     flex: 1 0 auto;
     margin-top: 40px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
 #hero-image-1 {
-    background:url(../images/brownie.jpg) no-repeat center center/cover;
-    width:100%;
-    height:500px;
-    position:relative;
+    background: url(../images/brownie.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
 
 #hero-image-2 {
-    background:url(../images/ramen.jpg) no-repeat center center/cover;
-    width:100%;
-    height:500px;
-    position:relative;
+    background: url(../images/ramen.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
 
 #hero-text {
     background-color: rgba(255, 0, 0, 0.461);
-    color:#FFFFFF;
+    color: #FFFFFF;
     text-align: center;
     font-size: 110%;
-    position:absolute;
+    position: absolute;
     bottom: -50px;
     height: 100px;
-    padding:0 20px;
-    margin-left:20%;
-    margin-right:20%;
+    padding: 0 20px;
+    margin-left: 20%;
+    margin-right: 20%;
     z-index: 20;
 }
 
-#hero-text p {
-    padding:10px;
+#hero-text h2 {
+    padding-top: 10px;
 }
+
+#hero-text p {
+    padding: 10px;
+}
+
+.hidden-heading {
+    display: none;
+}
+
+#circle-chef-bg {
+    background: url(../images/chef.jpeg) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
+
+#circle-healthy-bg {
+    background: url(../images/healthy.jpg) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
+
+#circle-class-bg {
+    background: url(../images/class.jpg) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
 /*Footer*/
 footer {
     background-color: green;
@@ -135,27 +179,17 @@ footer {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    border-bottom:1px solid #3a3a3a;
-    margin:0 10%;
-    
+    border-bottom: 1px solid #3a3a3a;
+    margin: 0 10%;
+
 }
 
 #contact {
-    text-align:center;
-    font-size:60%;
-    color:white;
+    text-align: center;
+    font-size: 60%;
+    color: white;
 }
 
 #social-networks i {
-    color:white;
+    color: white;
 }
-
-
-
-
-
-
-
-
-
-
