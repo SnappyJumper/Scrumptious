@@ -137,8 +137,7 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+
 }
 
 #circle-healthy-bg {
@@ -148,8 +147,7 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+
 }
 
 #circle-class-bg {
@@ -159,8 +157,7 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+
 }
 
 #about-us {
@@ -211,22 +208,33 @@ footer {
     }
 
     #hero-text {
-        font-size:200%;
+        font-size: 200%;
         position: absolute;
         bottom: 0;
         min-height: 100px;
         min-width: 400px;
-        right:10px;
+        right: 10px;
     }
 
     .about-us {
-        display:flex;
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
 
+    .banners {
+        display: flex;
+        align-items: center;
+        font-size: 150%;
+        height: 220px;
+        max-width: 500px;
+        margin-top: 60px;
+        padding-left: 10px;
+    }
+
     .circle-img {
-        
+        max-width: 300px;
+        max-height: 300px;
     }
 }
 
