@@ -137,6 +137,8 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #circle-healthy-bg {
@@ -146,6 +148,8 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #circle-class-bg {
@@ -155,6 +159,8 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 #about-us {
@@ -209,11 +215,21 @@ footer {
         position: absolute;
         bottom: 0;
         min-height: 100px;
-        min-width: 500px;
-        left:75%;
+        min-width: 400px;
+        right:10px;
     }
 
+    .about-us {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .circle-img {
+        
+    }
 }
+
 
 
 /*Media query for laptop screens and up*/
