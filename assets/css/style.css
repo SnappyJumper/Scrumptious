@@ -80,7 +80,7 @@ nav {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    color:#3a3a3a;
 }
 
 
@@ -184,7 +184,7 @@ footer {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #FFFFFF;
     margin: 0 10%;
 
 }
@@ -201,7 +201,37 @@ footer {
 
 /*Media query for tablets or larger (768px and up)*/
 @media screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
+    #menu {
+        display: flex;
+    }
+
+    #menu li a {
+        padding: 0 1rem;
+    }
+
+    #home {
+        border-right: 1px solid #FFFFFF;
+        
+    }
+
+    #newsletter {
+        border-left: 1px solid #FFFFFF;
+    }
+
+    .label-nav-toggle {
+        display: none;
+    }
+
+    /*Main Content*/
     #hero-images {
         display: flex;
         flex-direction: row;
@@ -219,15 +249,18 @@ footer {
     .about-us {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    #nutrition .banners{
+        order:1;
     }
 
     .banners {
         display: flex;
         align-items: center;
         font-size: 150%;
-        height: 220px;
-        max-width: 500px;
+        height: 220px; 
         margin-top: 60px;
         padding-left: 10px;
     }
@@ -236,9 +269,39 @@ footer {
         max-width: 300px;
         max-height: 300px;
     }
+
+    /*Footer*/
+   footer {
+    display:flex;
+    justify-content: space-around;
+   }
+
+   footer li {
+    padding:0 20px;
+    font-size: xx-large;
+   }
+
+   #social-networks {
+    border-bottom: none;
+}
+
+   #contact {
+    border-left: 1px solid #FFFFFF;
+    margin: 20px 10px;
+    padding:10px 50px;
+    min-width: 350px;
+   }
 }
 
 
 
 /*Media query for laptop screens and up*/
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+
+    /*Footer*/
+
+    footer li {
+        padding:0 60px;
+       }
+
+}
