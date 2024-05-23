@@ -191,6 +191,13 @@ main {
     right:20%;
 }
 
+.course {
+    background-color: rgb(160, 30, 30);
+    color:#FFFFFF;
+    text-align:center;
+    font-size:150%;
+}
+
 /*Footer*/
 footer {
     background-color: green;
