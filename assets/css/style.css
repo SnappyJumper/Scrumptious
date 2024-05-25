@@ -191,17 +191,28 @@ main {
     right:20%;
 }
 
+#soup-img {
+    background: url(../images/soup.jpg) no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
 
 .course {
-    background-color: green;
+    background-color: rgb(160, 30, 30);
     color:#FFFFFF;
+}
+
+.course-name {
+    background-color: green;
     text-align:center;
     font-size:150%;
 }
 
 .recipe {
-    background-color: rgb(160, 30, 30);
-    color:#FFFFFF;
+    padding:20px;
 }
 
 .recipe h4 {
