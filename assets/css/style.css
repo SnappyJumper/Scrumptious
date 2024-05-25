@@ -80,8 +80,9 @@ nav {
 }
 
 .active {
-    color:#3a3a3a;
+    color: #3a3a3a;
 }
+
 /*Main Content*/
 /*Index*/
 
@@ -187,8 +188,8 @@ main {
     font-size: 150%;
     position: absolute;
     bottom: 0;
-    left:20%;
-    right:20%;
+    left: 20%;
+    right: 20%;
 }
 
 #soup-img {
@@ -202,17 +203,17 @@ main {
 
 .course {
     background-color: rgb(160, 30, 30);
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .course-name {
     background-color: green;
-    text-align:center;
-    font-size:150%;
+    text-align: center;
+    font-size: 150%;
 }
 
 .recipe {
-    padding:15px;
+    padding: 15px;
 }
 
 .recipe h3 {
@@ -221,24 +222,33 @@ main {
 
 .recipe h4 {
     text-decoration: underline;
-    
+
 }
 
-.ingre-and-cook{
+.ingre-and-cook {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .ingredients {
-    margin-top:10px;
+    margin-top: 10px;
+}
+
+.ingredients li {
+    margin-right: 5px;
 }
 
 .cooking-info {
-    border:1px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
     height: 120px;
     min-width: 150px;
     margin-top: 10px;
+}
+
+.cooking-info p,
+h4 {
+    margin-left: 5px;
 }
 
 .method {
@@ -246,8 +256,14 @@ main {
     margin-top: 10px;
 }
 
-.method ol,ul {
+.method ol,
+ul {
     padding-left: 20px;
+}
+
+.method li {
+    padding-right: 5px;
+    margin-left: 10px;
 }
 
 /*Footer*/
@@ -278,6 +294,7 @@ footer {
 
 /*Media query for tablets or larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
     nav {
         display: block;
@@ -297,7 +314,7 @@ footer {
 
     #home {
         border-right: 1px solid #FFFFFF;
-        
+
     }
 
     #newsletter {
@@ -329,15 +346,15 @@ footer {
         justify-content: space-evenly;
     }
 
-    #nutrition .banners{
-        order:1;
+    #nutrition .banners {
+        order: 1;
     }
 
     .banners {
         display: flex;
         align-items: center;
         font-size: 150%;
-        height: 220px; 
+        height: 220px;
         margin-top: 60px;
         padding-left: 10px;
     }
@@ -348,26 +365,26 @@ footer {
     }
 
     /*Footer*/
-   footer {
-    display:flex;
-    justify-content: space-around;
-   }
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
 
-   footer li {
-    padding:0 20px;
-    font-size: xx-large;
-   }
+    footer li {
+        padding: 0 20px;
+        font-size: xx-large;
+    }
 
-   #social-networks {
-    border-bottom: none;
-}
+    #social-networks {
+        border-bottom: none;
+    }
 
-   #contact {
-    border-left: 1px solid #FFFFFF;
-    margin: 20px 10px;
-    padding:10px 50px;
-    min-width: 350px;
-   }
+    #contact {
+        border-left: 1px solid #FFFFFF;
+        margin: 20px 10px;
+        padding: 10px 50px;
+        min-width: 350px;
+    }
 }
 
 
@@ -378,7 +395,7 @@ footer {
     /*Footer*/
 
     footer li {
-        padding:0 60px;
-       }
+        padding: 0 60px;
+    }
 
 }
