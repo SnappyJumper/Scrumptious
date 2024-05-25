@@ -215,6 +215,10 @@ main {
     padding:15px;
 }
 
+.recipe h3 {
+    text-align: center;
+}
+
 .recipe h4 {
     text-decoration: underline;
     
@@ -226,13 +230,21 @@ main {
     justify-content: space-between;
 }
 
+.ingredients {
+    margin-top:10px;
+}
+
 .cooking-info {
     border:1px solid #FFFFFF;
     height: 120px;
     min-width: 150px;
+    margin-top: 10px;
 }
 
-
+.method {
+    border: 1px solid #FFFFFF;
+    margin-top: 10px;
+}
 
 .method ol,ul {
     padding-left: 20px;
