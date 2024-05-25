@@ -161,6 +161,17 @@ main {
 
 }
 
+.circle-img {
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+
+.circle-container {
+    display:flex;
+    justify-content: center;
+}
+
 #about-us {
     display: flex;
     flex-direction: column;
@@ -192,6 +203,13 @@ main {
     right: 20%;
 }
 
+#title-text {
+    background-color: rgb(160, 30, 30);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
 #soup-img {
     background: url(../images/soup.jpg) no-repeat center center/cover;
     height: 90vw;
@@ -201,6 +219,25 @@ main {
     border-radius: 50%;
 }
 
+#jambalaya-img {
+    background: url(../images/jambalaya.jpg) no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
+
+#brownie-img {
+    background: url(../images/brownie.jpg) no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+}
+
+
 .course {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
@@ -209,7 +246,13 @@ main {
 .course-name {
     background-color: green;
     text-align: center;
-    font-size: 150%;
+    font-size: 175%;
+    color:#FFFFFF;
+    height:50.5px;
+}
+
+.course-name h3 {
+    margin-top:6px;
 }
 
 .recipe {
@@ -218,6 +261,9 @@ main {
 
 .recipe h3 {
     text-align: center;
+    font-size: 150%;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .recipe h4 {
@@ -253,7 +299,7 @@ h4 {
 
 .method {
     border: 1px solid #FFFFFF;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .method ol,
@@ -326,6 +372,7 @@ footer {
     }
 
     /*Main Content*/
+    /*index*/
     #hero-images {
         display: flex;
         flex-direction: row;
@@ -359,10 +406,32 @@ footer {
         padding-left: 10px;
     }
 
-    .circle-img {
+    
+
+    /*our-recipes*/
+
+    #title-text {
+        display: flex;
+        align-items: center;
+        font-size: 150%;
+        height: 220px;
+        padding-left: 10px;
+    }
+
+    .course-and-img {
+        display:flex;
+        align-items: center;
+    }
+
+    .course-img {
         max-width: 300px;
         max-height: 300px;
+
     }
+
+    
+
+
 
     /*Footer*/
     footer {
