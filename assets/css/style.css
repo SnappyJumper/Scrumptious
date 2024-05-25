@@ -191,11 +191,32 @@ main {
     right:20%;
 }
 
+
 .course {
-    background-color: rgb(160, 30, 30);
+    background-color: green;
     color:#FFFFFF;
     text-align:center;
     font-size:150%;
+}
+
+.recipe {
+    background-color: rgb(160, 30, 30);
+    color:#FFFFFF;
+}
+
+.recipe h4 {
+    text-decoration: underline;
+    
+}
+
+.ingre-and-cook{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.method ol,ul {
+    padding-left: 20px;
 }
 
 /*Footer*/
