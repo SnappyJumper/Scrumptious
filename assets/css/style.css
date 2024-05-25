@@ -237,6 +237,11 @@ main {
     border-radius: 50%;
 }
 
+.course-img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
 
 .course {
     background-color: rgb(160, 30, 30);
@@ -268,7 +273,6 @@ main {
 
 .recipe h4 {
     text-decoration: underline;
-
 }
 
 .ingre-and-cook {
@@ -423,11 +427,7 @@ footer {
         align-items: center;
     }
 
-    .course-img {
-        max-width: 300px;
-        max-height: 300px;
-
-    }
+    
 
     
 
