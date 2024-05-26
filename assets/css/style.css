@@ -485,17 +485,22 @@ footer {
 
     /*our-recipes*/
 
-    #title-text {
+    .title-text {
         display: flex;
         align-items: center;
         font-size: 150%;
         height: 220px;
         padding-left: 10px;
+        margin-bottom: 20px;
     }
 
     .course-and-img {
         display:flex;
         align-items: center;
+    }
+
+    .course {
+        margin:20px;
     }
 
 
@@ -511,6 +516,7 @@ footer {
     #form {
         display:flex;
         flex:1;
+        margin:20px;
     }
 
     #signup-img {
