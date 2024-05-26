@@ -120,6 +120,7 @@ main {
     left: 20%;
     right: 20%;
     z-index: 20;
+    border-radius: 4px;
 }
 
 #hero-text h2 {
@@ -460,6 +461,7 @@ footer {
         min-height: 100px;
         min-width: 400px;
         right: 10px;
+        
     }
 
     .about-us {
@@ -479,6 +481,7 @@ footer {
         height: 220px;
         margin-top: 60px;
         padding-left: 10px;
+        border-radius: 4px;
     }
 
     
@@ -501,6 +504,7 @@ footer {
 
     .course {
         margin:20px;
+        border-radius: 4px;
     }
 
 
@@ -517,6 +521,11 @@ footer {
         display:flex;
         flex:1;
         margin:20px;
+        border-radius: 4px;
+    }
+
+    #form h3 {
+        border-radius: 4px 4px 0 0;
     }
 
     #signup-img {
