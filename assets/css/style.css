@@ -202,6 +202,7 @@ main {
     bottom: 0;
     left: 20%;
     right: 20%;
+    border-radius: 4px 4px 0 0;
 }
 
 .title-text {
@@ -293,9 +294,11 @@ main {
 
 .cooking-info {
     border: 1px solid #FFFFFF;
-    height: 120px;
+    height:130px;
     min-width: 150px;
     margin-top: 10px;
+    padding:10px;
+    border-radius: 4px;
 }
 
 .cooking-info p,
@@ -306,6 +309,8 @@ h4 {
 .method {
     border: 1px solid #FFFFFF;
     margin-top: 20px;
+    padding:10px;
+    border-radius: 4px;
 }
 
 .method ol,
@@ -365,7 +370,7 @@ ul {
 .text-input {
     color: #fafafa;
     border: 1px solid #3a3a3a;
-    border-radius: 2px;
+    border-radius: 4px;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -383,7 +388,7 @@ ul {
     margin: 20px 0;
     background-color: #fafafa;
     padding:10px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 
