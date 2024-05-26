@@ -203,7 +203,7 @@ main {
     right: 20%;
 }
 
-#title-text {
+.title-text {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
     text-align: center;
@@ -315,6 +315,9 @@ ul {
     padding-right: 5px;
     margin-left: 10px;
 }
+/*Newsletter*/
+
+
 
 /*Footer*/
 footer {
