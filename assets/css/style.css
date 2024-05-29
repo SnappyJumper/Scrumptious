@@ -46,6 +46,7 @@ header a {
 }
 
 #menu {
+    /*removes the list indentation*/
     list-style-type: none;
     font-size: 100%;
 }
@@ -61,16 +62,18 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #FFFFFF;
+    /*so the nav bar doesnt display on default*/
     display: none;
     /*top is assigned so the nav does not obscure the heading when toggled on*/
     top: 100%;
 }
 
 /*Nav Toggle*/
+/*when nav-toggle is ticked nav will display*/
 #nav-toggle:checked~nav {
     display: block;
 }
-
+/*hides the checkbox*/
 #nav-toggle {
     display: none;
 }
@@ -79,6 +82,7 @@ nav {
     font-size: 2rem;
 }
 
+/*Changes colour of font when on active page*/
 .active {
     color: #3a3a3a;
 }
@@ -93,15 +97,17 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+/*Brownie Hero Image*/
 #hero-image-1 {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/brownie*/
     background: url(../images/brownie.jpg) no-repeat center center/cover;
     width: 100%;
     height: 500px;
     position: relative;
 }
-
+/*Ramen Hero Image*/
 #hero-image-2 {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/ramen*/
     background: url(../images/ramen.jpg) no-repeat center center/cover;
     width: 100%;
     height: 500px;
@@ -114,25 +120,29 @@ main {
     text-align: center;
     font-size: 110%;
     position: absolute;
+    /*So it sits between both images*/
     bottom: -50px;
     min-height: 100px;
     padding: 0 20px;
     left: 20%;
     right: 20%;
+    /*So it sits above the ramen image*/
     z-index: 20;
-    border-radius: 4px;
+    /*only adjusts border radius for top left and right corners of the box*/
+    border-radius: 4px 4px 0 0;
 }
 
 #hero-text h2 {
     padding-top: 10px;
 }
 
-
+/*Hides the heading so that it remains for search engines but not visible*/
 .hidden-heading {
     display: none;
 }
-
+/*Chef Image*/
 #circle-chef-bg {
+    /*Image is my own*/
     background: url(../images/chef.jpeg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
@@ -141,8 +151,9 @@ main {
     border-radius: 50%;
 
 }
-
+/*Produce image*/
 #circle-healthy-bg {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/healthy-food*/
     background: url(../images/healthy.jpg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
@@ -151,33 +162,32 @@ main {
     border-radius: 50%;
 
 }
-
+/*Chef teaching image*/
 #circle-class-bg {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/cooking-class*/
     background: url(../images/class.jpg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
-
 }
-
+/*Defines the maximum size of all circle images*/
 .circle-img {
     max-width: 300px;
-    max-height: 300px;
-    
+    max-height: 300px;   
 }
-
+/*Orientates images with the circle-container class to be center within their containers*/
 .circle-container {
     display:flex;
     justify-content: center;
 }
-
+/*Displays all info in about-us ID as a column*/
 #about-us {
     display: flex;
     flex-direction: column;
 }
-
+/*Styling for red banners*/
 .banners {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
@@ -186,13 +196,15 @@ main {
 }
 
 /*our-recipes*/
+/*Hero image for our-recipes page Dinner image*/
 #recipe-img {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/dinner-party*/
     background: url(../images/dinner.jpg) no-repeat center center/cover;
     width: 100%;
     height: 500px;
     position: relative;
 }
-
+/*Text box over the hero image with the Heading of the page*/
 .img-text {
     background-color: rgba(255, 0, 0, 0.461);
     color: #FFFFFF;
@@ -202,17 +214,19 @@ main {
     bottom: 0;
     left: 20%;
     right: 20%;
+    /*only adjusts border radius for top left and right corners of the box*/
     border-radius: 4px 4px 0 0;
 }
-
+/*Styling for the text below the title*/
 .title-text {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
 }
-
+/*Soup Image*/
 #soup-img {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/soup*/
     background: url(../images/soup.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
@@ -220,8 +234,9 @@ main {
     /*Makes it a circle*/
     border-radius: 50%;
 }
-
+/*Jambalaya Image*/
 #jambalaya-img {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/jambalaya*/
     background: url(../images/jambalaya.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
@@ -229,8 +244,9 @@ main {
     /*Makes it a circle*/
     border-radius: 50%;
 }
-
+/*Brownie Image as a circle image*/
 #brownie-img {
+    /*Image courtesy of https://www.vecteezy.com/free-photos/brownie*/
     background: url(../images/brownie.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
@@ -239,17 +255,19 @@ main {
     border-radius: 50%;
 }
 
+/*Assigns max image size for course-img's*/
 .course-img {
     max-width: 300px;
     max-height: 300px;
 }
 
-
+/*Sets backgroun and font colour for course box*/
 .course {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
 }
 
+/*Styles the subheading for each course*/
 .course-name {
     background-color: green;
     text-align: center;
@@ -267,21 +285,23 @@ main {
     padding: 15px;
 }
 
+/*Recipe Name*/
 .recipe h3 {
     text-align: center;
     font-size: 150%;
     border-bottom: 1px solid #FFFFFF;
     margin-bottom: 20px;
 }
-
+/*Headings for method, cooking instructions and ingredients*/
 .recipe h4 {
     text-decoration: underline;
 }
 
+/*Sets the ingredients and */
 .ingre-and-cook {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    
 }
 
 .ingredients {
@@ -293,7 +313,6 @@ main {
 }
 
 .cooking-info {
-    border: 1px solid #FFFFFF;
     height:130px;
     min-width: 150px;
     margin-top: 10px;
@@ -515,6 +534,12 @@ footer {
     .course {
         margin:20px;
         border-radius: 4px;
+    }
+
+    .ingre-and-cook {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
 
