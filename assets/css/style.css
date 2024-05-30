@@ -262,7 +262,7 @@ main {
     max-height: 300px;
 }
 
-/*Sets backgroun and font colour for course box*/
+/*Sets background and font colour for course box*/
 .course {
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
@@ -274,24 +274,26 @@ main {
     text-align: center;
     font-size: 175%;
     color:#FFFFFF;
-    height:50.5px;
+    /*height:50.5px;*/
     width: 100%;
 }
 
-.course-name h3 {
-    margin-top:6px;
+.course-name i {
+    font-size: 75%;
 }
 
 .recipe {
     padding: 15px;
 }
 
+
+
 /*Recipe Name*/
 .recipe h3 {
     text-align: center;
     font-size: 150%;
     border-bottom: 1px solid #FFFFFF;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 /*Headings for method, cooking instructions and ingredients*/
 .recipe h4 {
@@ -303,17 +305,14 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+/*ingredients box*/
 .ingredients {
     margin-top: 10px;
 }
 
-
+/*cooking info box*/
 .cooking-info {
-    height:130px;
-    min-width: 150px;
-    margin-top: 20px;
-    
+    margin-top: 10px;
     border-radius: 4px;
 }
 
@@ -324,7 +323,7 @@ main {
 .method {
     border: 1px solid #FFFFFF;
     margin-top: 20px;
-    padding:10px;
+    padding:20px;
     border-radius: 4px;
 }
 
@@ -336,6 +335,10 @@ ul {
 .method li {
     padding-right: 5px;
     margin-left: 10px;
+}
+/*reverses the order of the recipe and its photo*/
+.reverse {
+    order:2;   
 }
 /*Newsletter*/
 
@@ -424,15 +427,20 @@ footer {
 
 }
 
-#contact {
-    text-align: center;
-    font-size: 60%;
-    color: white;
-}
-
 #social-networks i {
     color: white;
+    font-size: 200%;
+    
 }
+
+#contact {
+    text-align: center;
+    font-size: 80%;
+    color: white;
+    padding: 10px;
+}
+
+
 
 /*Media query for tablets or larger (768px and up)*/
 @media screen and (min-width: 768px) {
