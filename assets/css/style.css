@@ -581,12 +581,12 @@ footer {
     }
 
     footer li {
-        padding: 0 20px;
-        font-size: xx-large;
+        padding: 0 10px;
     }
 
     #social-networks {
         border-bottom: none;
+        margin:0;
     }
 
     #contact {
