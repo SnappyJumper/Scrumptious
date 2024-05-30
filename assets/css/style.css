@@ -21,6 +21,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 120%;
 }
 
 /*Header*/
@@ -297,32 +298,27 @@ main {
     text-decoration: underline;
 }
 
-/*Sets the ingredients and */
+/*Sets the ingredients and cooking instructions to display as a column */
 .ingre-and-cook {
     display: flex;
     flex-direction: column;
-    
 }
 
 .ingredients {
     margin-top: 10px;
 }
 
-.ingredients li {
-    margin-right: 5px;
-}
 
 .cooking-info {
     height:130px;
     min-width: 150px;
-    margin-top: 10px;
-    padding:10px;
+    margin-top: 20px;
+    
     border-radius: 4px;
 }
 
-.cooking-info p,
-h4 {
-    margin-left: 5px;
+.cooking-info p {
+    padding-left: 20px;
 }
 
 .method {
