@@ -33,8 +33,9 @@ header {
     width: 100%;
     box-shadow: 0 3px #FFFFFF;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: baseline;
+    
     color: #FFFFFF;
 }
 
@@ -58,10 +59,10 @@ header a {
 
 nav {
     position: absolute;
-    background-color: green;
+    background-color: rgb(2, 166, 2);
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     box-shadow: 0 3px 3px #FFFFFF;
     /*so the nav bar doesnt display on default*/
     display: none;
@@ -124,7 +125,7 @@ main {
     /*So it sits between both images*/
     bottom: -50px;
     min-height: 100px;
-    padding: 0 20px;
+    padding:20px;
     left: 20%;
     right: 20%;
     /*So it sits above the ramen image*/
@@ -133,9 +134,7 @@ main {
     border-radius: 4px 4px 0 0;
 }
 
-#hero-text h2 {
-    padding-top: 10px;
-}
+
 
 /*Hides the heading so that it remains for search engines but not visible*/
 .hidden-heading {
@@ -447,6 +446,7 @@ footer {
     /*Header*/
     /*Nav display*/
     nav {
+        background-color: green;
         display: block;
         position: relative;
         box-shadow: none;
@@ -456,6 +456,10 @@ footer {
     /*displays the menu as a flex*/
     #menu {
         display: flex;
+    }
+
+    #menu li {
+        margin-bottom: 0
     }
 
     #menu li a {
