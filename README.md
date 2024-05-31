@@ -53,27 +53,29 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 
 ### Project Goals
 
-* The website should have a calming and relaxing design, appealing to the customers.
+* The website should have a bright appearance with colors resembling that of fresh produce.
 
-* Present the treatments offered and information about them in order to attract more customers.
+* Introduce the customer to what the company goals are.
 
-* Provide the customer with useful information that can facilitate future interaction with the business.
+* Present the recipes in a neat format with easy to understand instructions.
 
-* Offer the customers the opportunity to book a treatment once they have decided to visit the business.
+* Provide the customer with information that can help facilitate greater communication with the company.
+
+* Offer the customers the opportunity to sign up to a Newsletter where they can recive updates on new recipes and upcomming events.
 
 ### User Stories
 
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+* As a customer, I want to be able to navigate the website easily and discover new recipes.
 
-* As a customer, I want to be able to read more about the treatments available.
+* As a customer, I want to be able to read more about what the company offers me.
 
 * As a customer, I want to easily find the contact information for the business.
 
 * As a customer, I want to find social media links to the business.
 
-* As a customer, I want to be able to book a treatment directly from the website.
+* As a customer, I want to be able to keep up to date with changes or events in the company.
 
-* As a customer, I want to easily find the business' location.
+* As a customer, .
 
 ### Color Scheme
 ![Color scheme image](assets/readme-files/color-scheme.png)
