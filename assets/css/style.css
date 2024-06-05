@@ -183,6 +183,7 @@ main {
     max-width: 300px;
     max-height: 300px;   
 }
+
 /*Orientates images with the circle-container class to be center within their containers*/
 .circle-container {
     display:flex;
@@ -418,6 +419,11 @@ ul {
 /*Footer box*/
 footer {
     background-color: green;
+}
+
+#footer-con {
+    display: flex;
+    align-items: center;
 }
 /*Box contains all the social links*/
 #social-networks {
