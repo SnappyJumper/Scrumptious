@@ -437,10 +437,14 @@ footer {
 
 }
 /*Social Icons*/
-#social-networks i {
+.social {
     color: white;
     font-size: 200%;
     
+}
+
+.social:hover {
+    color: red;
 }
 /*contact details box*/
 #contact {
