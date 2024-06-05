@@ -25,10 +25,7 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
     5. [Wireframes](#wireframes)
 2. [Features](#features)
     1. [General](#general)
-    2. [Landing Page](#landing-page)
-    3. [Treatments Page](#treatments-page)
-    4. [Book Now Page](#book-now-page)
-    5. [404 Error Page](#404-error-page)
+    2. [Home page](#home-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -71,24 +68,24 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 
 * As a customer, I want to easily find the contact information for the business.
 
-* As a customer, I want to find social media links to the business.
+* As a customer, I want to find social media links associated with the business.
 
 * As a customer, I want to be able to keep up to date with changes or events in the company.
 
-* As a customer, .
+* As a customer, I want to feel assured that these recipes are tried and tested.
 
 ### Color Scheme
 ![Color scheme image](assets/readme-files/color-scheme.png)
 
-The colors used in the site are two different tones of green (#e2ecba and #454720), a brown color (#784834) for the hover effects and a blue green color (#133944) for the main text. These colors are chosen to represent the rain forest surrounding the business and are used in order to communicate a sense of calm and relaxation.
+The colours used in the 
 
 ### Typography
 
-The main font used in the site is Raleway, with Sans Serif as the fallback font in case Ralway is not being imported correctly. Cabin is used for the headings, as suggested by Google Fonts for appropriate pairings with Raleway, with Sans Serif as fallback. The Qahiri font has been chosen for the site logo with Sans Serif used again as fallback.
+The main font used in the website is "Karla", from google fonts, with sans-serif as backup in case the font fails to display. The logo and headings are all styled with "Poetsen One"  
 
 ### Wireframes
 
-[Balsamiq](https://balsamiq.com/) has been used to showcase the appearance of the site and display the placement of the different elements whitin the pages.
+[Balsamiq](https://balsamiq.com/) was used to help plan the finished look of the website and the wireframes I generated can be viewed below
 
 Page | Desktop Version | Mobile Version
 --- | --- | ---
@@ -96,77 +93,75 @@ Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | 
 Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
 Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#scrumptious!)
 
 
 ## Features
 
 ### General
 
-* Responsive design across all device sizes.
+* Design was to be responsive across multiple devices.
 
-* Similar color scheme and design throughout all pages to effectively structure, categorise and present the information to the customers.
+* Colour schemes and similar layouts were to be maintained across all devices to enhance the user experience and make it easy to access information across different devices.
 
 * **Header**
 ![Header image](assets/readme-files/header.png)
     
-    - The header contains the business logo and fully responsive navigation bar positioned across the top of the screen.
+    - The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website.
+ 
+    - The header is fixed to the top of the window for easy access wherever you are on the page. 
 
-    - The business logo functions as a link to the landing page.
-
-    - The navigation bar is identical in all pages and contains links to all pages to facilitate navigation across the site. It also has a hover effect that changes color to provide feedback to the customer for a better user experience.
+    - The navigation bar is the same across all pages and highlights the active page.
+ 
+    - The links in the navigation bar have a hover effect applied to them to enhance the user experience.
+ 
+    - The navigation bar hides itself on smaller devices and can be accessed using a burger button.
+ 
 
 * **Footer**
 ![Footer image](assets/readme-files/footer.png)
 
-    - The footer includes a smaller version of the logo and link to the business' social media channels.
+    - The footer contains links to social media sites.
+ 
+    - The footer has contact information for the company, with a clickable link for email.
 
-### Landing Page
+### Home Page
 
 * **Main Image**
 ![Main image](assets/readme-files/main-image.png)
 
-    - The main image is designed to attract the customer's attention and represents the nature surrounding the business.
+    - The two main images are designed to attract the customers attention and to let them know that this website is about food.
 
 * **About Us Section**
 ![About us section image](assets/readme-files/about-us.png)
 
-    - Contains a text with information about the business as well as an eye-catching image.
+    - The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
 
-* **Contact Section**
-![Contact section image](assets/readme-files/contact.png)
 
-    - Contains a text with useful geographical information as well as contact details such as the business' physical address, email and phone number.
+### Our Recipes Page
 
-### Treatments Page
-
-* **Treatment Sections**
+* **Sample Menu**
 ![Treatment section image](assets/readme-files/treatment-section-example.png)
 
-    - The treatment section contains an image to illustrate the respective treatment and a short text with an explanation of the treatment.
+    - Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party.
 
-    - A link to the book now page has been added to each section for easy navigation.
+    - There is one specially selected meal for each of the three courses. A starter, a main and a dessert.
 
-    - Each treatment section is fully responsive and easy to replicate in case more treatments need to be added by the business.
+    - Each recipe is responsive and can be easily replicated to hold other recipes when adding more down the line.
+ 
+    - Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading.
 
-### Book Now Page
+### Newsletter Page
 
-* **Book Now Form**
+* **Get Onboard Form**
 ![Book now form image](assets/readme-files/book-now-form.png)
 
-    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
+    - The form allows the customer to submit their information so they can receive our newsletter.
+ 
+    - The newsletter keeps them up to date with the recipes on the site and gives them information on life cooking demos taking place throughout the country.
 
-* **Find Us Section**
-![Find us section image](assets/readme-files/find-us.png)
 
-    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
-
-### 404 Error Page
-![404 error page image](assets/readme-files/404-error-page.png)
-
-*  This single page is being shown in case the customer enters an incorrect address into the address bar. It contains a link to the landing page.
-
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Technologies Used
