@@ -433,10 +433,7 @@ footer {
     background-color: green;
 }
 
-#footer-con {
-    display: flex;
-    align-items: center;
-}
+
 /*Box contains all the social links*/
 #social-networks {
     text-align: center;
@@ -624,6 +621,11 @@ footer {
         /*flips the footer into a row*/
         display: flex;
         justify-content: space-around;
+    }
+
+    #footer-con {
+        display: flex;
+        align-items: center;
     }
     /*list items within the footer*/
     footer li {
