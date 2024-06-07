@@ -245,7 +245,11 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) online services were used to ensure there were no errors in the code like syntax issues etc...
 
-[index test]()
+![index test](assets/readme-images/Test%20index.png)
+![our recipes test 1](assets/readme-images/Test%20our-recipes%20pt.1.png)
+![our recipes test 2](assets/readme-images/Test%20our-recipes%20pt.2.png)
+![newsletter test](assets/readme-images/Test%20newsletter%20.png)
+![css test](assets/readme-images/Test%20css.png)
 
     - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
     
