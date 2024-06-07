@@ -173,73 +173,72 @@ Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-no
 ### Frameworks, Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the fonts Raleway, Cabin and Qahiri into the style.css file. These fonts were used throughout the site.
+    - Google fonts was used to import the fonts "Poetsen One" and "Karla" which were used for the headings and body of the website respectively.
 
 * [Font Awesome](https://fontawesome.com/)
-     - Font Awesome was used throughout all pages to add icons in order to create a better visual experience for UX purposes.
+     - Font Awesome was used for various icons throughout the website. These helped to improve the visual experience.
 
 * [TinyPNG](https://tinypng.com/)
-    - TinyPNG was used to reduce the file size of the images for the website.
+    - TinyPNG was used to help reduce the size of images used throughout the website.
 
 * [GitPod](https://gitpod.io/)
-     - GitPod was used for writing code, committing, and then pushing to GitHub.
-
+     - GitPod was used to write the code and for pushing to Github.
 * [GitHub](https://github.com/)
-     - GitHub was used to store the project after pushing.
+     - Github was used to keep the repository after pushing.
 
 * [Balsamiq](https://balsamiq.com/)
-     - Balsamiq was used to create the wireframes during the design phase of the project.
-
-* [Am I Responsive?](http://ami.responsivedesign.is/#)
-    - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
-
-* [Responsive Design Checker](https://www.responsivedesignchecker.com/)
-    - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+     - Balsamiq was used during the design phase of the project to produce wireframes.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used during development process for code review and to test responsiveness.
+    - Chrome Devtools was used during the development process to help troubleshoot code and test responsiveness.
 
 * [W3C Markup Validator](https://validator.w3.org/)
-    - W3C Markup Validator was used to validate the HTML code.
+    - W3C Markup Validator for validating HTML code.
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-    - W3C CSS Validator was used to validate the CSS code.
+    - W3C CSS Validator for validating CSS code.
+ 
+* [Favicon.io](https://favicon.io/)
+    -Favicon generator used to generate the favicon for the site.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Testing
 
 ### Testing User Stories
 
-* As a customer, I want to be able to navigate the website intuitively and learn more about the business and treatments being offered.
+* As a customer, I want to be able to navigate the website easily and discover new recipes.
 
-     - The website offers a intuitive structure for the customers to navigate and find the information they are looking for.
+     - The website offers easy navigation throughout with a responsive navigation bar located in the header of each page.
 
-    - The navigation bar is clearly presented in all pages for the customers to find with ease and it is easily navigable.
+    - The newsletter is a handy way for customers to encounter new recipes on a weekly basis.
+ 
+    - Recipes are laid out in an easy to read format.
 
+* As a customer, I want to be able to read more about what the company offers me.
+  
+    - The Home page gives a brief description about the services offered by the company.
 
-* As a customer, I want to be able to read more about the treatments available.
-
-    - The treatments page presents all treatments available, each on their own section.
-
-    - Each treatment section contains useful information about the respective treatment.
+    - Further information about cooking demos can be found on the weekly newsletter.
 
 * As a customer, I want to easily find the contact information for the business.
 
-    - The landing page contains a clear contact section with all necessary business' contacts
+    - The Footer on each page has a contact section which supplies the customer with an email address and a business address.
 
-* As a customer, I want to find social media links to the business.
+* As a customer, I want to find social media links associated with the business.
 
-    - The footer provides link to the business' social media channels.
+    - The Footer on each page has a social media section which contains easy to use icons with links to social media.
 
-* As a customer, I want to be able to book a treatment directly from the website.
+* As a customer, I want to be able to keep up to date with changes or events in the company.
 
-    - The book now page provides a book now form for the customer to book and schedule their next treatment.
+    - The Newsletter page contains a simple form to subscribe to the Newsletter. The newsletter keeps customers up to date with all important changes and special events taking place at the company.
 
-* As a customer, I want to easily find the business' location.
+* As a customer, I want to feel assured that these recipes are tried and tested.
 
-    - The book now page contains a find us section with a Google map of the business' geographical location.
+    - The Home page informs the customer that each of our recipes are tried and tested by the companies own chef team.
+ 
+    - The cooking demos organised on the newsletter will use recipes on the site so customers feel assured they are quality recipes.
 
 
 ### Code Validation
