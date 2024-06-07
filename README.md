@@ -87,11 +87,10 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
 
 [Balsamiq](https://balsamiq.com/) was used to help plan the finished look of the website and the wireframes I generated can be viewed below
 
-Page | Desktop Version | Mobile Version
---- | --- | ---
-Index | ![Desktop index wireframe image](assets/wireframes/desktop-index.png) | ![Mobile index wireframe image](assets/wireframes/mobile-index.png)
-Treatments | ![Desktop treatments wireframe image](assets/wireframes/desktop-treatments.png) | ![Mobile treatments wireframe image](assets/wireframes/mobile-treatments.png)
-Book Now | ![Desktop book now wireframe image](assets/wireframes/desktop-book-now.png) | ![Mobile book now wireframe image](assets/wireframes/mobile-book-now.png)
+![Index Wireframe](assets/readme-images/index-page.png)
+![Our Recipes Wireframe](assets/readme-images/%20our-recipes-page.png)
+![Newsletter Wireframe](assets/readme-images/newsletter-page.png)
+![Mobile Wireframe](assets/readme-images/mobile-page.png)
 
 [Back to top ⇧](#scrumptious!)
 
