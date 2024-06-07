@@ -87,9 +87,20 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
 
 [Balsamiq](https://balsamiq.com/) was used to help plan the finished look of the website and the wireframes I generated can be viewed below
 
+Index Page:
+
 ![Index Wireframe](assets/readme-images/index-page.png)
+
+Our Recipes Page:
+
 ![Our Recipes Wireframe](assets/readme-images/%20our-recipes-page.png)
+
+Newsletter Page:
+
 ![Newsletter Wireframe](assets/readme-images/newsletter-page.png)
+
+Mobile Page:
+
 ![Mobile Wireframe](assets/readme-images/mobile-page.png)
 
 [Back to top ⇧](#scrumptious!)
@@ -104,7 +115,19 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
 * Colour schemes and similar layouts were to be maintained across all devices to enhance the user experience and make it easy to access information across different devices.
 
 * **Header**
-![Header image](assets/readme-files/header.png)
+
+Desktop Header:
+
+![Desktop Header image](assets/readme-images/desktop-header.png)
+
+Mobile Header with Nav hidden:
+
+![Mobile Header image 1](assets/readme-images/mobile-header-nav-hidden.png)
+
+Mobile Header with Nav shown:
+
+![Mobile Header image 2](assets/readme-images/mobile-header-nav-visable.png)
+
     
     - The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website.
  
@@ -118,7 +141,14 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
  
 
 * **Footer**
-![Footer image](assets/readme-files/footer.png)
+
+Desktop Footer:
+
+![Desktop Footer image](assets/readme-images/desktop-footer.png)
+
+Mobile Footer:
+
+![Mobile Footer image](assets/readme-images/mobile-footer.png)
 
     - The footer contains links to social media sites.
  
@@ -127,12 +157,29 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
 ### Home Page
 
 * **Main Image**
-![Main image](assets/readme-files/main-image.png)
+
+Desktop Main Images:
+
+![Main image](assets/readme-images/Hero-images-desktop.png)
+
+Mobile Main Images:
+
+![Main image mobile 1](assets/readme-images/hero-image-mobile-1.png)
+
+
+![Main image mobile 2](assets/readme-images/hero-image-mobile-2.png)
 
     - The two main images are designed to attract the customers attention and to let them know that this website is about food.
 
 * **About Us Section**
-![About us section image](assets/readme-files/about-us.png)
+
+Desktop Version:
+
+![About us section desktop image](assets/readme-images/about-us-desktop.png)
+
+Mobile Version:
+
+![About us section mobile image](assets/readme-images/about-us-mobile.png)
 
     - The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
 
@@ -244,10 +291,21 @@ The main font used in the website is "Karla", from google fonts, with sans-serif
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) online services were used to ensure there were no errors in the code like syntax issues etc...
 
+Test on index.html:
+
 ![index test](assets/readme-images/Test%20index.png)
+
+Test on our-recipes.html:
+
 ![our recipes test 1](assets/readme-images/Test%20our-recipes%20pt.1.png)
 ![our recipes test 2](assets/readme-images/Test%20our-recipes%20pt.2.png)
+
+Test on newsletter.html:
+
 ![newsletter test](assets/readme-images/Test%20newsletter%20.png)
+
+Test on style.css:
+
 ![css test](assets/readme-images/Test%20css.png)
 
     - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
