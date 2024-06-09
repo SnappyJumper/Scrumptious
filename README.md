@@ -298,24 +298,45 @@ Test on index.html:
 
 ![index test](assets/readme-images/Test%20index.png)
 
+- The W3C Markup Validator found a /nav ending which was outside the div containing the nav. I fixed this error by moving the /nav to the correct location within the div.
+
+- There was also a div id with an empty string associated with it. I deleted the unused id.
+
+- There was a warning asking me to add some headers to the social media and contact us sections of the footer. I added hidden headings to correct this.
+
+- The results of these adjustments gave a no errors or warnings result when the test was repeated.
+
 Test on our-recipes.html:
 
 ![our recipes test 1](assets/readme-images/Test%20our-recipes%20pt.1.png)
 ![our recipes test 2](assets/readme-images/Test%20our-recipes%20pt.2.png)
 
+- The W3C Markup Validator found that the sections for the circle images had no headings so I added them.
+
+- There was a unused /i which i deleted.
+
+- The same warning as the initial results from the index.html test suggested I added headings to the social network and contact us section so I did.
+
+- The results of these adjustments gave a no errors or warnings result when the test was repeated.
+
 Test on newsletter.html:
 
 ![newsletter test](assets/readme-images/Test%20newsletter%20.png)
+![button warning](assets/readme-images/button-warning.png)
+
+- The W3C Markup Validator found that I had an unused /div so i deleted it.
+
+- The same warning arose with the footer as in the previous tests. I added headings to the social network and contact us sections to rectify the warning.
+
+- There was also a warning with my button which i corrected by removing the role attribute.
+
+- The results of these adjustments resulted in a no errors or warnings result when the test was repeated.
 
 Test on style.css:
 
 ![css test](assets/readme-images/Test%20css.png)
 
-    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
     
-    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
-
-    -  W3C CSS Validator found no errors or warnings on my CSS.
 
 ### Accessibility
 
