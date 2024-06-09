@@ -245,7 +245,10 @@ Mobile Version:
     - W3C CSS Validator for validating CSS code.
  
 * [Favicon.io](https://favicon.io/)
-    -Favicon generator used to generate the favicon for the site.
+    - Favicon generator used to generate the favicon for the site.
+
+* [CSS Scan](https://getcssscan.com/css-buttons-examples)
+    - samples of buttons styled through CSS
 
 [Back to top ⇧](#Scrumptious!)
 

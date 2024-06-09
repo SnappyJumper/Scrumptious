@@ -408,7 +408,7 @@ ul {
 }
 /*The text inputs*/
 .text-input {
-    color: #fafafa;
+    color: #3a3a3a;
     border: 1px solid #3a3a3a;
     border-radius: 4px;
     width: 100%;
@@ -423,14 +423,48 @@ ul {
     justify-content: space-between;
     width: 100%;
 }
-/*The submit button*/
-.news-butt {
-    margin: 20px 0;
-    background-color: #fafafa;
-    padding:10px;
-    border-radius: 4px;
+
+.submit-butt {
+    margin-top: 20px;
 }
 
+/*The submit button*/
+.button-24 {
+  background: green;
+  border: 1px solid #FFFFFF;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+/*Hover and active styles*/
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: green;
+  border: 1px solid green;
+}
+/*reduces the opacity when button clicked*/
+.button-24:active {
+  opacity: .5;
+}
 
 
 /*Footer*/
@@ -668,3 +702,7 @@ footer {
     }
 
 }
+
+
+
+
