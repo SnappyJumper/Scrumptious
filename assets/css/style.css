@@ -90,6 +90,7 @@ nav {
     color: #3a3a3a;
 }
 
+/*makes the nav options highlight in red with cursor hover*/
 .nav:hover {
     color: red;
 }
@@ -142,6 +143,7 @@ main {
     /*So it sits between both images*/
     bottom: -50px;
     min-height: 100px;
+    width:fit-content;
     padding:20px;
     left: 20%;
     right: 20%;
@@ -149,6 +151,9 @@ main {
     z-index: 20;
     /*only adjusts border radius for top left and right corners of the box*/
     border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -211,6 +216,8 @@ main {
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
+    width:fit-content;
+    height:fit-content;
 }
 
 /*our-recipes*/
@@ -538,11 +545,15 @@ footer {
         display: flex;
         align-items: center;
         font-size: 150%;
-        height: 220px;
-        margin-top: 60px;
+        /*margin-top: 60px;*/
         padding-left: 10px;
         /*assigns a border radius to the top right and bottom right cornrers only*/
         border-radius: 0 4px 4px 0;
+    }
+
+    .about-us {
+        display:flex;
+        align-items: center;
     }
 
     /*Nutrition banner*/
