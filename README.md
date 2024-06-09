@@ -248,7 +248,7 @@ Mobile Version:
     - Favicon generator used to generate the favicon for the site.
 
 * [CSS Scan](https://getcssscan.com/css-buttons-examples)
-    - samples of buttons styled through CSS
+    - Samples of buttons styled through CSS
 
 [Back to top ⇧](#Scrumptious!)
 
@@ -335,9 +335,6 @@ Test on style.css:
 
     ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
 
-    - **404 Error Page**
-
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
 
 ### Tools Testing
 
@@ -447,7 +444,7 @@ Test on style.css:
 
         - Clicking on the homepage link will bring the customer back to the landing page.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Finished Product
@@ -459,7 +456,7 @@ Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatm
 Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
 404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Deployment
@@ -482,7 +479,7 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Credits 
@@ -510,7 +507,7 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
 
 
 ## Acknowledgements
@@ -523,4 +520,4 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Scrumptious!)
