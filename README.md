@@ -336,7 +336,7 @@ Test on style.css:
 
 ![css test](assets/readme-images/Test%20css.png)
 
-    
+- W3C CSS Validator came up with no errors.
 
 ### Accessibility
 
@@ -361,67 +361,65 @@ Test on style.css:
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-    - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles used in the project.
+    - Chrome DevTools was used right throught the development of this project to assist with troubleshooting code and styling.
 
 * Responsiveness
     
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to help check the sites responsiveness across a range of device sizes.
 
-    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the site pages on different screen sizes.
+    - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to help check responsiveness across a range of device sizes.
     
-    - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+    - Chrome DevTools was used to help test the sites responsiveness across a range of devices during the development process.
 
 ### Manual Testing
 
 * Browser Compatibility
 
-    - The website has been tested on the following browsers:
+    - The site was tested across a range of browsers including:
 
-        - **Goolgle Chrome**
+        - **Google Chrome**
         
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **Safari**
         
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **Mozilla Firefox**
         
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
-        
-        No responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **Microsoft Edge**
         
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
 * Device compatibility
 
     - The website has been tested on multiple devices, including:
 
-        - **MacBook Pro 15"**
+        - **MacBook Pro 13"**
 
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
-        - **Dell Latitude 5300**
+        - ****
 
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **iPad Pro 12.9"**
 
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **iPad Pro 10.5"**
 
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
-        - **iPhone XR**
+        - **OnePlus 10 Pro**
         
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
         - **iPhone 7**
 
-        No appearance, responsiveness nor functionality issues.
+        No issues with appearance, functionality or responsiveness were found.
 
 * Common Elements Testing
 
@@ -429,7 +427,7 @@ Test on style.css:
         
         - **Header**
 
-            - Clicking on the main logo will bring the customer back to the landing page.
+            - By clicking on the Scrumptious Logo you are directed to the home page.
 
         - **Navigation Bar**
 
