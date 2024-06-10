@@ -431,72 +431,60 @@ Test on style.css:
 
         - **Navigation Bar**
 
-            - Hovering on the different navigation bar's links will trigger hover effect, highlighting the link for the customer.
+            - Hovering with the cursor over different options on the navigation bar will cause them to highlight.
 
-            - Clicking on the navigation bar's links will bring the customer to the specified page.
+            - Clicking on one of the options within the navigation bar will direct you to its corresponding page.
+
+            - The page that you are currently on is greyed out as an option in the navigation bar.
         
         - **Footer**
         
-            - Clicking on the social media links will open the specific website on a new tab.
+            - By clicking on one of the social media icons you are directed to the relevant social media website.
 
-    - Treatments Page
+            - By clicking on the email address in the contact us section of the footer you are brought to the compose an email section of your computers email software.
 
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
+    - Our Recipes Page
 
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
+        - 
 
-    - Book Now Page
+        - 
 
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
+    - Newsletter Page
+
+        - When filling out the Get Onboard form on the Newsletter page you are required to fill out each input before submitting. 
         
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
+        - Hovering with your cursor over the Get Cookin' button causes its colours to reverse.
 
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
+        - Clicking the Get Cookin' button causes its to go slightly transparent.
         
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
 
 [Back to top ⇧](#Scrumptious!)
 
 
 ## Finished Product
 
-Page | Desktop version | Mobile version
---- | --- | ---
-Index | ![Desktop index page image](assets/readme-files/desktop-index.png) | ![Mobile index page image](assets/readme-files/mobile-index.png)
-Treatments | ![Desktop treatments page image](assets/readme-files/desktop-treatments.png) | ![Mobile treatments page image](assets/readme-files/mobile-treatments.png)
-Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.png) | ![Mobile book now page image](assets/readme-files/mobile-book-now.png)
-404 Error | ![Desktop 404 error page image](assets/readme-files/desktop-404.png) | ![Mobile 404 error page image](assets/readme-files/mobile-404.png)
+
 
 [Back to top ⇧](#Scrumptious!)
 
 
 ## Deployment
 
-* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+* This website was developed using [GitPod](https://www.gitpod.io/), which was pushed and commited to GitHub using the terminal on GitPod.
 
 ### GitHub Pages
 
 * Here are the steps to deploy this website to GitHub Pages from its GitHub repository:
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+    1. Log into GitHub and find the repository associated with the project [GitHub Repository](https://github.com/).
 
-    2. At the top of the Repository, locate the Settings button on the menu.
+    2. At the top of the repository locate the settings and click.
 
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
+    3. Within settings locate the pages section.
 
-    3. Scroll down the Settings page until you locate the Pages section.
+    4. In source, change the dropdown menu option from none to Master Branch.
 
-    4. Under Source, click the dropdown called None and select Master Branch.
-
-    5. The page will refresh automatically and generate a link to your website.
+    5. The page should then refresh and generate a link to your site.
 
 [Back to top ⇧](#Scrumptious!)
 
@@ -509,34 +497,35 @@ Book Now | ![Desktop book now page image](assets/readme-files/desktop-book-now.p
 
 ### Media
 
-* [Pexels](https://www.pexels.com/)
+* [Vecteezy.com](https://www.vecteezy.com/)
 
-    - Main image: "Waterfalls in the Middle of Green Trees" by Austin Tsai.
-    - 404 Error Page image: Taken by Artem Beliaikin.
+- All images, except for the Chef image were downloaded for free from vecteezy.com.
 
-* [Unsplash](https://unsplash.com/)
+* [Favicon.io](https://favicon.io/)
 
-    - About Us image: "Pristine water lily" by Jay Castor.
-    - Massage image: "Beautiful Woman Getting Stones Massage in Spa Salon" by Engin Akyurt.
-    - Facial image: Taken by Raphael Lovaski.
-    - Pedicure image: "Warm bath before treatment" by Rune Enstad.
-    - Book Now image: Taken by Firos Nv.
+- The cupcake favicon was downloaded for free from https://favicon.io/.
 
 ### Code
 
-* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implement.
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were both used on a regular basis to assist with development of the code.
+
+* [Code Institute](https://www.codeinstitute.ie/) their tutorials and sample project were useful for both the development and inspiration of my own.
+
+* [Codecademy](https://www.codecademy.com/) was used to help with trying to further understand some of the material from the Code Institute course.
 
 [Back to top ⇧](#Scrumptious!)
 
 
 ## Acknowledgements
 
-* My partner, for her unconditional love, help and support in all aspects of life to make possible for me to work on this project.
+* My housemate, for his support and guidance throughout this project.
 
-* My family, for their valuable opinions and and critic during the design and development process.
+* My partner, for her support and the lend of her iPhone while testing.
 
-* My tutor, Marcel, for his invaluable feedback and guidance.
+* My mentor, Marcel, for his solid advice and suggestions during this project.
 
-* Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
+* My parents, for financial and emotional support during this course.
+
+* Code Institute and its great community for additional support and guidance throughout this course so far.
 
 [Back to top ⇧](#Scrumptious!)
