@@ -499,11 +499,11 @@ Test on style.css:
 
 * [Vecteezy.com](https://www.vecteezy.com/)
 
-- All images, except for the Chef image were downloaded for free from vecteezy.com.
+     All images, except for the Chef image were downloaded for free from vecteezy.com.
 
 * [Favicon.io](https://favicon.io/)
 
-- The cupcake favicon was downloaded for free from https://favicon.io/.
+     The cupcake favicon was downloaded for free from https://favicon.io/.
 
 ### Code
 

@@ -90,9 +90,9 @@ nav {
     color: #3a3a3a;
 }
 
-/*makes the nav options highlight in red with cursor hover*/
+/*makes the nav options highlight with cursor hover*/
 .nav:hover {
-    color: red;
+    color: rgb(160, 30, 30);
 }
 
 /*Main Content*/
@@ -165,7 +165,6 @@ main {
 /*Chef Image*/
 #circle-chef-bg {
     /*Image is my own*/
-    /* background: url(../images/chef.jpeg) no-repeat top center/cover; */
     height: 90vw;
     width: 90vw;
     margin: 20px;
