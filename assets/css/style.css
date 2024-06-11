@@ -211,12 +211,22 @@ main {
 }
 /*Styling for red banners*/
 .banners {
+    flex-direction: column;
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
     text-align: center;
-    padding: 10px;
     width:fit-content;
     height:fit-content;
+}
+
+.banners h3 {
+    padding:10px;
+    background-color: green;
+    width: -webkit-fill-available;
+}
+
+.banners p {
+    padding: 10px;
 }
 
 /*our-recipes*/
@@ -577,10 +587,13 @@ footer {
         display: flex;
         align-items: center;
         font-size: 150%;
-        /*margin-top: 60px;*/
-        padding-left: 10px;
+        
         /*assigns a border radius to the top right and bottom right cornrers only*/
         border-radius: 0 4px 4px 0;
+    }
+    
+    .banners h3 {
+        border-radius: 0 4px 0 0; 
     }
 
     .about-us {
@@ -592,6 +605,10 @@ footer {
     #nutrition-ban {
         /*border radius needs to be flipped on this banner*/
         border-radius: 4px 0 0 4px;
+    }
+
+    #nutrition-ban h3 {
+        border-radius: 4px 0 0 0;
     }
 
    
