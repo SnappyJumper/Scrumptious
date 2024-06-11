@@ -165,7 +165,7 @@ main {
 /*Chef Image*/
 #circle-chef-bg {
     /*Image is my own*/
-    background: url(../images/chef.jpeg) no-repeat top center/cover;
+    /* background: url(../images/chef.jpeg) no-repeat top center/cover; */
     height: 90vw;
     width: 90vw;
     margin: 20px;

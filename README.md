@@ -114,7 +114,7 @@ Mobile Page:
 
 * Colour schemes and similar layouts were to be maintained across all devices to enhance the user experience and make it easy to access information across different devices.
 
-* **Header**
+**Header**
 
 Desktop Header:
 
@@ -129,18 +129,18 @@ Mobile Header with Nav shown:
 ![Mobile Header image 2](assets/readme-images/mobile-header-nav-visable.png)
 
     
-    - The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website.
- 
-    - The header is fixed to the top of the window for easy access wherever you are on the page. 
+- The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website.
 
-    - The navigation bar is the same across all pages and highlights the active page.
- 
-    - The links in the navigation bar have a hover effect applied to them to enhance the user experience.
- 
-    - The navigation bar hides itself on smaller devices and can be accessed using a burger button.
+- The header is fixed to the top of the window for easy access wherever you are on the page. 
+
+- The navigation bar is the same across all pages and highlights the active page.
+
+- The links in the navigation bar have a hover effect applied to them to enhance the user experience.
+
+- The navigation bar hides itself on smaller devices and can be accessed using a burger button.
  
 
-* **Footer**
+**Footer**
 
 Desktop Footer:
 
@@ -156,7 +156,7 @@ Mobile Footer:
 
 ### Home Page
 
-* **Main Image**
+ **Main Image**
 
 Desktop Main Images:
 
@@ -169,9 +169,9 @@ Mobile Main Images:
 
 ![Main image mobile 2](assets/readme-images/hero-image-mobile-2.png)
 
-    - The two main images are designed to attract the customers attention and to let them know that this website is about food.
+- The two main images are designed to attract the customers attention and to let them know that this website is about food.
 
-* **About Us Section**
+ **About Us Section**
 
 Desktop Version:
 
@@ -181,7 +181,7 @@ Mobile Version:
 
 ![About us section mobile image](assets/readme-images/about-us-mobile.png)
 
-    - The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
+- The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
 
 
 ### Our Recipes Page
@@ -189,22 +189,22 @@ Mobile Version:
 * **Sample Menu**
 ![Treatment section image](assets/readme-files/treatment-section-example.png)
 
-    - Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party.
+- Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party.
 
-    - There is one specially selected meal for each of the three courses. A starter, a main and a dessert.
+- There is one specially selected meal for each of the three courses. A starter, a main and a dessert.
 
-    - Each recipe is responsive and can be easily replicated to hold other recipes when adding more down the line.
- 
-    - Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading.
+- Each recipe is responsive and can be easily replicated to hold other recipes when adding more down the line.
+
+- Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading.
 
 ### Newsletter Page
 
 * **Get Onboard Form**
 ![Book now form image](assets/readme-files/book-now-form.png)
 
-    - The form allows the customer to submit their information so they can receive our newsletter.
- 
-    - The newsletter keeps them up to date with the recipes on the site and gives them information on life cooking demos taking place throughout the country.
+- The form allows the customer to submit their information so they can receive our newsletter.
+
+- The newsletter keeps them up to date with the recipes on the site and gives them information on life cooking demos taking place throughout the country.
 
 
 [Back to top ⇧](#Scrumptious!)
@@ -222,18 +222,18 @@ Mobile Version:
     - Google fonts was used to import the fonts "Poetsen One" and "Karla" which were used for the headings and body of the website respectively.
 
 * [Font Awesome](https://fontawesome.com/)
-     - Font Awesome was used for various icons throughout the website. These helped to improve the visual experience.
+    - Font Awesome was used for various icons throughout the website. These helped to improve the visual experience.
 
 * [TinyPNG](https://tinypng.com/)
     - TinyPNG was used to help reduce the size of images used throughout the website.
 
 * [GitPod](https://gitpod.io/)
-     - GitPod was used to write the code and for pushing to Github.
+    - GitPod was used to write the code and for pushing to Github.
 * [GitHub](https://github.com/)
-     - Github was used to keep the repository after pushing.
+    - Github was used to keep the repository after pushing.
 
 * [Balsamiq](https://balsamiq.com/)
-     - Balsamiq was used during the design phase of the project to produce wireframes.
+    - Balsamiq was used during the design phase of the project to produce wireframes.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - Chrome Devtools was used during the development process to help troubleshoot code and test responsiveness.
