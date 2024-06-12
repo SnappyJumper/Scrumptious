@@ -745,10 +745,30 @@ footer {
 /*Media query for laptop screens and up*/
 @media screen and (min-width: 992px) {
 
+
+    /*Main Content*/
+    /*index*/
+    /*.circle-img {
+        max-width: 500px;
+        max-height: 500px;
+    }*/
     /*Footer*/
 
     footer li {
         padding: 0 60px;
+    }
+
+}
+
+/*Media query for laptop screens and up*/
+@media screen and (min-width: 1500px) {
+
+
+    /*Main Content*/
+    /*index*/
+    .circle-img {
+        max-width: 500px;
+        max-height: 500px;
     }
 
 }
