@@ -477,7 +477,20 @@ Test on style.css:
 
 ## Finished Product
 
+Index Page:
 
+![Index Page Desktop](assets/readme-images/index-final.png)
+![Index Page Mobile](assets/readme-images/index-mobile-final.png)
+
+Our Recipes Page:
+
+![Our Recipes Page Desktop](assets/readme-images/our-recipes-final.png)
+![Our Recipes Page Mobile](assets/readme-images/our-recipes-mobile-final.png)
+
+Newsletter Page:
+
+![Newsletter Page Desktop](assets/readme-images/newsletter-final.png)
+![Newsletter Page Mobile](assets/readme-images/newsletter-mobile-final.png)
 
 [Back to top ⇧](#Scrumptious!)
 
