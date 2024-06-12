@@ -1,6 +1,6 @@
 # Scrumptious!
 
-
+![Scrumptious Responsive Image](assets/readme-images/responsive-image.png)
 
 Scrumptious! is a fictional company based at a fictional location in inner city Dublin.
 
@@ -186,8 +186,15 @@ Mobile Version:
 
 ### Our Recipes Page
 
-* **Sample Menu**
-![Treatment section image](assets/readme-files/treatment-section-example.png)
+ **Sample Menu**
+
+Recipe Container:
+
+![Recipe Template Image](assets/readme-images/recipe-example.png)
+
+Accompanying Image:
+
+![Accompanying Image Of Dish](assets/readme-images/recipe-image.png)
 
 - Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party.
 
@@ -199,8 +206,15 @@ Mobile Version:
 
 ### Newsletter Page
 
-* **Get Onboard Form**
-![Book now form image](assets/readme-files/book-now-form.png)
+ **Get Onboard Form**
+
+Desktop Version:
+
+![Get Onboard Form](assets/readme-images/get-onboard-form-desktop.png)
+
+Mobile Version:
+
+![Book now form image](assets/readme-images/get-onboard-form-mobile.png)
 
 - The form allows the customer to submit their information so they can receive our newsletter.
 
@@ -346,15 +360,15 @@ Test on style.css:
 
     - **Landing Page**
 
-    ![Lighthouse report for landing page image](assets/readme-files/lighthouse-report-index.png)
+    ![Lighthouse report for landing page image](assets/readme-images/index-lighthouse.png)
 
-    - **Treatments Page**
+    - **Our Recipes Page**
 
-    ![Lighthouse report for treatmenst page image](assets/readme-files/lighthouse-report-treatments.png)
+    ![Lighthouse report for Our Recipes page image](assets/readme-images/our-recipes-lighthouse.png)
 
-    - **Book Now Page**
+    - **Newsletter Page**
 
-    ![Lighthouse report for book now page image](assets/readme-files/lighthouse-report-book-now.png)
+    ![Lighthouse report for Newsletter page image](assets/readme-images/newsletter-lighthouse.png)
 
 
 ### Tools Testing

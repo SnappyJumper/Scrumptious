@@ -452,6 +452,8 @@ ul {
 }
 
 .submit-butt {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
 
