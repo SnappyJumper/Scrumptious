@@ -25,7 +25,7 @@ body {
 
 /*Header*/
 header {
-    background-color: green;
+    background-color: #028A0F;
     position: fixed;
     padding: 0 1rem;
     z-index: 99;
@@ -60,7 +60,8 @@ header a {
 
 nav {
     position: absolute;
-    background-color: rgb(2, 166, 2);
+    /*background-color: rgb(2, 166, 2);*/
+    background-color: #03AC13;
     width: 100%;
     left: 0;
     padding: 1rem 1rem;
@@ -93,7 +94,7 @@ nav {
 
 /*makes the nav options highlight with cursor hover*/
 .nav:hover {
-    color: rgb(160, 30, 30);
+    color: #960018;
 }
 
 /*Main Content*/
@@ -138,7 +139,7 @@ main {
 }
 
 #hero-text {
-    background-color: rgba(255, 0, 0, 0.461);
+    background-color: rgba(255, 0, 0, 0.5);
     color: #FFFFFF;
     text-align: center;
     font-size: 110%;
@@ -217,7 +218,7 @@ main {
 /*Styling for red banners*/
 .banners {
     flex-direction: column;
-    background-color: rgb(160, 30, 30);
+    background-color: #960018;
     color: #FFFFFF;
     text-align: center;
     width: fit-content;
@@ -226,7 +227,7 @@ main {
 
 .banners h3 {
     padding: 10px;
-    background-color: green;
+    background-color: #028A0F;
     width: -webkit-fill-available;
 }
 
@@ -246,7 +247,7 @@ main {
 
 /*Text box over the hero image with the Heading of the page*/
 .img-text {
-    background-color: rgba(255, 0, 0, 0.461);
+    background-color: rgba(255, 0, 0, 0.5);
     color: #FFFFFF;
     text-align: center;
     font-size: 150%;
@@ -260,7 +261,7 @@ main {
 
 /*Styling for the text below the title*/
 .title-text {
-    background-color: rgb(160, 30, 30);
+    background-color: #960018;
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
@@ -304,7 +305,7 @@ main {
 
 /*Sets background and font colour for course box*/
 .course {
-    background-color: rgb(160, 30, 30);
+    background-color: #960018;
     color: #FFFFFF;
 }
 
@@ -402,7 +403,7 @@ ul {
 
 /*Box for the Form*/
 #form {
-    background-color: rgb(160, 30, 30);
+    background-color: #960018;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -411,11 +412,12 @@ ul {
 
 /*Form heading*/
 #form h3 {
-    background-color: green;
+    background-color: #028A0F;
     text-align: center;
     font-size: 175%;
     color: #FFFFFF;
     width: 100%;
+    padding:10px;
 }
 
 /*sub heading for selecting favourite course*/
@@ -455,7 +457,7 @@ ul {
 
 /*The submit button*/
 .button-24 {
-    background: green;
+    background: #028A0F;
     border: 1px solid #FFFFFF;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
@@ -483,8 +485,8 @@ ul {
 .button-24:active {
     background-color: initial;
     background-position: 0 0;
-    color: green;
-    border: 1px solid green;
+    color: #028A0F;
+    border: 1px solid #028A0F;
 }
 
 /*reduces the opacity when button clicked*/
@@ -496,7 +498,7 @@ ul {
 /*Footer*/
 /*Footer box*/
 footer {
-    background-color: green;
+    background-color: #028A0F;
 }
 
 
@@ -520,7 +522,7 @@ footer {
 }
 
 .social:hover {
-    color: red;
+    color: #960018;
 }
 
 /*contact details box*/
@@ -531,6 +533,10 @@ footer {
     padding: 10px;
 }
 
+#contact a {
+    color:#960018;
+}
+
 
 
 /*Media query for tablets or larger (768px and up)*/
@@ -539,7 +545,7 @@ footer {
     /*Header*/
     /*Nav display*/
     nav {
-        background-color: rgb(0, 119, 0);
+        background-color: #028A0F;
         display: block;
         position: relative;
         box-shadow: none;
@@ -745,13 +751,6 @@ footer {
 /*Media query for laptop screens and up*/
 @media screen and (min-width: 992px) {
 
-
-    /*Main Content*/
-    /*index*/
-    /*.circle-img {
-        max-width: 500px;
-        max-height: 500px;
-    }*/
     /*Footer*/
 
     footer li {
@@ -760,7 +759,7 @@ footer {
 
 }
 
-/*Media query for laptop screens and up*/
+/*Media query for large desktop screens and up*/
 @media screen and (min-width: 1500px) {
 
 
