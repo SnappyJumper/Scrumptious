@@ -34,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     color: #FFFFFF;
 }
 
@@ -76,6 +76,7 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+
 /*hides the checkbox*/
 #nav-toggle {
     display: none;
@@ -117,6 +118,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 /*Brownie Hero Image*/
 #hero-image-1 {
     /*Image courtesy of https://www.vecteezy.com/free-photos/brownie*/
@@ -125,6 +127,7 @@ main {
     height: 500px;
     position: relative;
 }
+
 /*Ramen Hero Image*/
 #hero-image-2 {
     /*Image courtesy of https://www.vecteezy.com/free-photos/ramen*/
@@ -143,8 +146,8 @@ main {
     /*So it sits between both images*/
     bottom: -50px;
     min-height: 100px;
-    width:fit-content;
-    padding:20px;
+    width: fit-content;
+    padding: 20px;
     left: 20%;
     right: 20%;
     /*So it sits above the ramen image*/
@@ -156,12 +159,11 @@ main {
     justify-content: center;
 }
 
-
-
 /*Hides the heading so that it remains for search engines but not visible*/
 .hidden-heading {
     display: none;
 }
+
 /*Chef Image*/
 #circle-chef-bg {
     /*Image is my own*/
@@ -170,57 +172,60 @@ main {
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
-
+    object-fit: cover;
 }
+
 /*Produce image*/
 #circle-healthy-bg {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/healthy-food*/
-    background: url(../images/healthy.jpg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 
 }
+
 /*Chef teaching image*/
 #circle-class-bg {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/cooking-class*/
-    background: url(../images/class.jpg) no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 }
+
 /*Defines the maximum size of all circle images*/
 .circle-img {
     max-width: 300px;
-    max-height: 300px;   
+    max-height: 300px;
 }
 
 /*Orientates images with the circle-container class to be center within their containers*/
 .circle-container {
-    display:flex;
+    display: flex;
     justify-content: center;
 }
+
 /*Displays all info in about-us ID as a column*/
 #about-us {
     display: flex;
     flex-direction: column;
 }
+
 /*Styling for red banners*/
 .banners {
     flex-direction: column;
     background-color: rgb(160, 30, 30);
     color: #FFFFFF;
     text-align: center;
-    width:fit-content;
-    height:fit-content;
+    width: fit-content;
+    height: fit-content;
 }
 
 .banners h3 {
-    padding:10px;
+    padding: 10px;
     background-color: green;
     width: -webkit-fill-available;
 }
@@ -238,6 +243,7 @@ main {
     height: 500px;
     position: relative;
 }
+
 /*Text box over the hero image with the Heading of the page*/
 .img-text {
     background-color: rgba(255, 0, 0, 0.461);
@@ -251,6 +257,7 @@ main {
     /*only adjusts border radius for top left and right corners of the box*/
     border-radius: 4px 4px 0 0;
 }
+
 /*Styling for the text below the title*/
 .title-text {
     background-color: rgb(160, 30, 30);
@@ -258,35 +265,35 @@ main {
     text-align: center;
     padding: 10px;
 }
+
 /*Soup Image*/
 #soup-img {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/soup*/
-    background: url(../images/soup.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 }
+
 /*Jambalaya Image*/
 #jambalaya-img {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/jambalaya*/
-    background: url(../images/jambalaya.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 }
+
 /*Brownie Image as a circle image*/
 #brownie-img {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/brownie*/
-    background: url(../images/brownie.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 }
 
 /*Assigns max image size for course-img's*/
@@ -306,7 +313,7 @@ main {
     background-color: green;
     text-align: center;
     font-size: 175%;
-    color:#FFFFFF;
+    color: #FFFFFF;
     /*height:50.5px;*/
     width: 100%;
 }
@@ -328,6 +335,7 @@ main {
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 10px;
 }
+
 /*Headings for method, cooking instructions and ingredients*/
 .recipe h4 {
     text-decoration: underline;
@@ -338,6 +346,7 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 /*ingredients box*/
 .ingredients {
     margin-top: 10px;
@@ -357,7 +366,7 @@ main {
 .method {
     border: 1px solid #FFFFFF;
     margin-top: 20px;
-    padding:20px;
+    padding: 20px;
     border-radius: 4px;
 }
 
@@ -368,8 +377,9 @@ ul {
 
 /*reverses the order of the recipe and its photo*/
 .reverse {
-    order:2;   
+    order: 2;
 }
+
 /*Newsletter*/
 /*Hero image of the Newslettet page bread-dough image*/
 #news-img {
@@ -379,16 +389,17 @@ ul {
     height: 500px;
     position: relative;
 }
+
 /*Accompanying image to the Form sheet the signup image*/
 #signup-img {
-    /*Image courtesy of https://www.vecteezy.com/free-photos/seasoning*/
-    background: url(../images/signup.jpg) no-repeat center center/cover;
     height: 90vw;
     width: 90vw;
     margin: 20px;
     /*Makes it a circle*/
     border-radius: 50%;
+    object-fit: cover;
 }
+
 /*Box for the Form*/
 #form {
     background-color: rgb(160, 30, 30);
@@ -397,24 +408,28 @@ ul {
     flex-direction: column;
     align-items: center;
 }
+
 /*Form heading*/
 #form h3 {
     background-color: green;
     text-align: center;
     font-size: 175%;
-    color:#FFFFFF;
+    color: #FFFFFF;
     width: 100%;
 }
+
 /*sub heading for selecting favourite course*/
 #newsletter-form h4 {
     text-align: center;
-    margin:10px;
+    margin: 10px;
     font-size: 120%;
 }
+
 /*The form itself*/
 #newsletter-form {
     margin: 20px;
 }
+
 /*The text inputs*/
 .text-input {
     color: #3a3a3a;
@@ -425,8 +440,9 @@ ul {
     margin: 5px 0 20px 0;
     padding: 0 5px;
 }
+
 /*The radio buttons*/
-.radio-butt{
+.radio-butt {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -439,39 +455,41 @@ ul {
 
 /*The submit button*/
 .button-24 {
-  background: green;
-  border: 1px solid #FFFFFF;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 16px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
+    background: green;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
 }
+
 /*Hover and active styles*/
 .button-24:hover,
 .button-24:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: green;
-  border: 1px solid green;
+    background-color: initial;
+    background-position: 0 0;
+    color: green;
+    border: 1px solid green;
 }
+
 /*reduces the opacity when button clicked*/
 .button-24:active {
-  opacity: .5;
+    opacity: .5;
 }
 
 
@@ -493,16 +511,18 @@ footer {
     margin: 0 10%;
 
 }
+
 /*Social Icons*/
 .social {
     color: white;
     font-size: 200%;
-    
+
 }
 
 .social:hover {
     color: red;
 }
+
 /*contact details box*/
 #contact {
     text-align: center;
@@ -526,6 +546,7 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     /*displays the menu as a flex*/
     #menu {
         display: flex;
@@ -538,15 +559,18 @@ footer {
     #menu li a {
         padding: 0 1rem;
     }
+
     /*places a border to the right of home*/
     #home {
         border-right: 1px solid #FFFFFF;
 
     }
+
     /*places a border to the left of newsletter*/
     #newsletter {
         border-left: 1px solid #FFFFFF;
     }
+
     /*keeps the burger bar hidden*/
     .label-nav-toggle {
         display: none;
@@ -560,6 +584,7 @@ footer {
         /*flips the Hero images into a row*/
         flex-direction: row;
     }
+
     /*Text over the Hero Images*/
     #hero-text {
         font-size: 200%;
@@ -569,6 +594,7 @@ footer {
         min-width: 400px;
         right: 10px;
     }
+
     /*divs containing a circle image and its banner*/
     .about-us {
         display: flex;
@@ -582,22 +608,23 @@ footer {
         /*Flips the order of the photo and its banner*/
         order: 1;
     }
+
     /*Banner styles*/
     .banners {
         display: flex;
         align-items: center;
         font-size: 150%;
-        
+
         /*assigns a border radius to the top right and bottom right cornrers only*/
         border-radius: 0 4px 4px 0;
     }
-    
+
     .banners h3 {
-        border-radius: 0 4px 0 0; 
+        border-radius: 0 4px 0 0;
     }
 
     .about-us {
-        display:flex;
+        display: flex;
         align-items: center;
     }
 
@@ -611,9 +638,9 @@ footer {
         border-radius: 4px 0 0 0;
     }
 
-   
 
-    
+
+
 
     /*our-recipes*/
     /*Text over the Hero images*/
@@ -625,17 +652,19 @@ footer {
         padding-left: 10px;
         margin-bottom: 20px;
     }
+
     /*contains image and the course*/
     .course-and-img {
-        display:flex;
+        display: flex;
         /*vertically centers the image*/
         align-items: center;
     }
-    
+
     .course {
-        margin:20px;
+        margin: 20px;
         border-radius: 4px;
     }
+
     /*ingredients and cooking instructions box*/
     .ingre-and-cook {
         display: flex;
@@ -649,26 +678,29 @@ footer {
     /*Newsletter*/
     /*FOrm and its photo*/
     #form-and-photo {
-        display:flex;
+        display: flex;
         /*Flips them into a row*/
         flex-direction: row;
         justify-content: space-between;
     }
+
     /*Form itself*/
     #form {
-        display:flex;
-        flex:1;
-        margin:0 20px 20px;
+        display: flex;
+        flex: 1;
+        margin: 0 20px 20px;
         border-radius: 4px;
     }
+
     /*Form Header*/
     #form h3 {
         /*Aplies a border radius to the top corners*/
         border-radius: 4px 4px 0 0;
     }
+
     /*The signup image*/
     #signup-img {
-        display:flex;
+        display: flex;
         align-self: center;
     }
 
@@ -686,16 +718,19 @@ footer {
         display: flex;
         align-items: center;
     }
+
     /*list items within the footer*/
     footer li {
         padding: 0 10px;
     }
+
     /*Social network box*/
     #social-networks {
         /*removes the border*/
         border-bottom: none;
-        margin:0;
+        margin: 0;
     }
+
     /*The contact info box*/
     #contact {
         border-left: 1px solid #FFFFFF;
@@ -717,7 +752,3 @@ footer {
     }
 
 }
-
-
-
-
