@@ -75,13 +75,13 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 * As a customer, I want to feel assured that these recipes are tried and tested.
 
 ### Color Scheme
-![Color scheme image](assets/readme-files/color-scheme.png)
+![Color scheme image](assets/readme-images/colour-pallet.png)
 
-The colours used in the 
+The colours used on the website are above. I used the two shades of green, Inda Green and Kelly Green(#028A0F and #03AC15), to colour the headings and the nav bar in the mobile version of the site respectively. I used the shade of Red Carmine to colour the banners and boxes throughout the website as well as the email link within the footer. For the text I stuck with a white colour (#FFFFFF).
 
 ### Typography
 
-The main font used in the website is "Karla", from google fonts, with sans-serif as backup in case the font fails to display. The logo and headings are all styled with "Poetsen One"  
+The main font used in the website is "Karla", from google fonts, with sans-serif as backup in case the font fails to display. The logo and headings are all styled with "Poetsen One", with sans-serif as a fall back again.  
 
 ### Wireframes
 
@@ -93,7 +93,7 @@ Index Page:
 
 Our Recipes Page:
 
-![Our Recipes Wireframe](assets/readme-images/%20our-recipes-page.png)
+![Our Recipes Wireframe](assets/readme-images/our-recipes-page.png)
 
 Newsletter Page:
 
@@ -160,7 +160,7 @@ Mobile Footer:
 
 Desktop Main Images:
 
-![Main image](assets/readme-images/Hero-images-desktop.png)
+![Main image](assets/readme-images/hero-images-desktop.png)
 
 Mobile Main Images:
 
@@ -296,7 +296,7 @@ Mobile Version:
 
 Test on index.html:
 
-![index test](assets/readme-images/Test%20index.png)
+![index test](assets/readme-images/test-index.png)
 
 - The W3C Markup Validator found a /nav ending which was outside the div containing the nav. I fixed this error by moving the /nav to the correct location within the div.
 
@@ -308,8 +308,8 @@ Test on index.html:
 
 Test on our-recipes.html:
 
-![our recipes test 1](assets/readme-images/Test%20our-recipes%20pt.1.png)
-![our recipes test 2](assets/readme-images/Test%20our-recipes%20pt.2.png)
+![our recipes test 1](assets/readme-images/test-our-recipes-pt.1.png)
+![our recipes test 2](assets/readme-images/test-our-recipes-pt.2.png)
 
 - The W3C Markup Validator found that the sections for the circle images had no headings so I added them.
 
@@ -321,7 +321,7 @@ Test on our-recipes.html:
 
 Test on newsletter.html:
 
-![newsletter test](assets/readme-images/Test%20newsletter%20.png)
+![newsletter test](assets/readme-images/test-newsletter.png)
 ![button warning](assets/readme-images/button-warning.png)
 
 - The W3C Markup Validator found that I had an unused /div so i deleted it.
@@ -334,7 +334,7 @@ Test on newsletter.html:
 
 Test on style.css:
 
-![css test](assets/readme-images/Test%20css.png)
+![css test](assets/readme-images/test-css.png)
 
 - W3C CSS Validator came up with no errors.
 
