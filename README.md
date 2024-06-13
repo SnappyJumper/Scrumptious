@@ -129,15 +129,15 @@ Mobile Header with Nav shown:
 ![Mobile Header image 2](assets/readme-images/mobile-header-nav-visable.png)
 
     
-- The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website.
+- The header contains the company logo, which also serves as a link to the home page, and a fully functional navigation bar for moving between the pages of the website. 
 
 - The header is fixed to the top of the window for easy access wherever you are on the page. 
 
-- The navigation bar is the same across all pages and highlights the active page.
+- The navigation bar is the same across all pages and highlights the active page, which helps users know where they are as they browse the site.
 
 - The links in the navigation bar have a hover effect applied to them to enhance the user experience.
 
-- The navigation bar hides itself on smaller devices and can be accessed using a burger button.
+- The navigation bar hides itself on smaller devices and can be accessed using a burger button. This is useful as the nav bar takes up a lot of horizontal space and having it hidden means the header can stay small and not impact the screen space.
  
 
 **Footer**
@@ -150,9 +150,11 @@ Mobile Footer:
 
 ![Mobile Footer image](assets/readme-images/mobile-footer.png)
 
-    - The footer contains links to social media sites.
+    - The footer contains links to social media sites. These links highlight when you hover over with the cursor and each link is displayed as an icon relating to the relative social media site.
+
+    - Clicking one of the social media icons opens up the corresponding site in a separate tab. This is a useful feature so the customer can easily navigate back to the Scrumptious! site via the old tab.
  
-    - The footer has contact information for the company, with a clickable link for email.
+    - The footer has contact information for the company, with a clickable link for email. The link opens up the customers default email program and starts a new mail with the sites email as it's recipient. This feature is good for the user experience.
 
 ### Home Page
 
@@ -171,6 +173,8 @@ Mobile Main Images:
 
 - The two main images are designed to attract the customers attention and to let them know that this website is about food.
 
+- Two images were chosen so the customer knows that the site is about more than just desserts. The ramen hero image shows that the site also has recipes for savory dishes, as well as sweet ones depicted with the brownie hero image. 
+
  **About Us Section**
 
 Desktop Version:
@@ -183,8 +187,22 @@ Mobile Version:
 
 - The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
 
+- The first paragraph talks about the aim of the site. To match the customer with a recipe that has been tried and tested by our own chefs. This gives the customer a solid idea of what to expect from the site.
+
+- This is coupled with an image of one of the chefs musing over some of the fantastic recipes he's testing that day.
+
+- The second paragraph talks about Nutrition. It explains that all the recipes are put togeter with good nutrition at their core. This reassures the customers that the recipes supplied are going to be healthy which entices more health concerned customers to the site.
+
+- This is coupled with an image of fresh produce to compliment the idea of a balanced diet and healthy nutrition.
+
+- The Third paragraph talks about the cooking demos. These cooking demos offer customers an opportunity to get some hands on experience with the recipes. The paragraph also mentions the newsletter to get more information. Mentioning the newsletter will encourage customers to navigate further into the site.
+
 
 ### Our Recipes Page
+
+![Our Recipes Hero Image](assets/readme-images/our-recipes-hero.png)
+
+- The page begins with a hero image displaying a set table ready for a dinner party. This provides the customer with an idea where they can use the recipes below.
 
  **Sample Menu**
 
@@ -196,15 +214,23 @@ Accompanying Image:
 
 ![Accompanying Image Of Dish](assets/readme-images/recipe-image.png)
 
-- Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party.
+- Until more recipes are gathered for the database the website shows a sample three course menu for a dinner party. In future this page will serve as a base to navigate to recipes throughout the site across all types of courses.
 
-- There is one specially selected meal for each of the three courses. A starter, a main and a dessert.
+- There is one specially selected meal for each of the three courses. A starter, a main and a dessert. This gives the customer some range and reminds them that the site will host a diverse selection of recipes in the future
 
-- Each recipe is responsive and can be easily replicated to hold other recipes when adding more down the line.
+- Each recipe is responsive and can be easily replicated to hold other recipes when adding more down the line. This enhances the user experience on mobile devices and makes it useful for the site owner when adding recipes, as there will be an existing template to work off of.
 
-- Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading.
+- Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading. This is key as the accessibility of each recipe to the customer is part of the main goals of the site.
+
+-Each recipe also has an accompanying image of the finished product. This is essential not only for the customer to be able to compare their work but also to entice them to try the recipe.
 
 ### Newsletter Page
+
+[Newsletter Hero Image](assets/readme-images/newsletter-hero.png)
+
+- The hero image on the newsletter page shows a chef hard at work kneading dough. 
+
+- Below the heading of the page we also have a paragraph about what the newsletter offers the customer. This will help to encourage customers to sign up which in turn will encourage repeat visits to the site.
 
  **Get Onboard Form**
 
@@ -214,11 +240,17 @@ Desktop Version:
 
 Mobile Version:
 
-![Book now form image](assets/readme-images/get-onboard-form-mobile.png)
+![Get Onboard Form image](assets/readme-images/get-onboard-form-mobile.png)
 
-- The form allows the customer to submit their information so they can receive our newsletter.
+- The form allows the customer to submit their information so they can receive our newsletter. 
 
-- The newsletter keeps them up to date with the recipes on the site and gives them information on life cooking demos taking place throughout the country.
+- Everything is laid out nice and easy and the sign up is kept nice and simple with a name, surname and email input and a radio button selection on the customers favourite course. Keeping this simple is essential as lengthly signup pages can discourage customers.
+
+- The radio button selection will help deliver a more personalised experience further down the line. The newsletter could be adapted to lean heavier on the customers preferred course.
+
+- The newsletter keeps them up to date with the recipes on the site and gives them information on live cooking demos taking place throughout the country. The more up to date the customer is with the latest recipes and events posted on the site, the larger return visits the site will have as a result.
+
+- The form is accompanied by an image of food being seasoned.
 
 
 [Back to top ⇧](#Scrumptious!)
