@@ -6,7 +6,7 @@ Scrumptious! is a fictional company based at a fictional location in inner city 
 
 Scrumptious!'s aim is to provide its users with food recipes that have been tried and tested by real chefs within their own kitchens.
 
-This website helps customers find the recipe theyre looking for and provides clear and simple instructions on how to recreate the dish at home.
+This website helps customers find the recipe they're looking for and provides clear and simple instructions on how to recreate the dish at home.
 
 The website is for new customers discovering new recipes for the first time and for returning customers who are looking for a recipe they found before or to even try something new.
 
@@ -42,7 +42,7 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-8. [Acknowledgements](#acknowledgements)
+8. [Acknowledgments](#acknowledgments)
 
 ***
 
@@ -58,7 +58,7 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 
 * Provide the customer with information that can help facilitate greater communication with the company.
 
-* Offer the customers the opportunity to sign up to a Newsletter where they can recive updates on new recipes and upcomming events.
+* Offer the customers the opportunity to sign up to a Newsletter where they can recieve updates on new recipes and upcoming events.
 
 ### User Stories
 
@@ -77,11 +77,11 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 ### Color Scheme
 ![Color scheme image](assets/readme-images/colour-pallet.png)
 
-The colours used on the website are above. I used the two shades of green, Inda Green and Kelly Green(#028A0F and #03AC15), to colour the headings and the nav bar in the mobile version of the site respectively. I used the shade of Red Carmine to colour the banners and boxes throughout the website as well as the email link within the footer. For the text I stuck with a white colour (#FFFFFF).
+The colours used on the website are above. I used the two shades of green, India Green and Kelly Green(#028A0F and #03AC15), to colour the headings and the nav bar in the mobile version of the site respectively. I used the shade of Red Carmine to colour the banners and boxes throughout the website as well as the email link within the footer. For the text I stuck with a white colour (#FFFFFF).
 
 ### Typography
 
-The main font used in the website is "Karla", from google fonts, with sans-serif as backup in case the font fails to display. The logo and headings are all styled with "Poetsen One", with sans-serif as a fall back again.  
+The main font used on the website is "Karla", from google fonts, with sans-serif as backup in case the font fails to display. The logo and headings are all styled with "Poetsen One", with sans-serif as a fall back again.  
 
 ### Wireframes
 
@@ -185,13 +185,13 @@ Mobile Version:
 
 ![About us section mobile image](assets/readme-images/about-us-mobile.png)
 
-- The rest of the page consists of eye catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
+- The rest of the page consists of eye-catching images with brief descriptions. These outline what the company's goals are and what the function of this website is.
 
 - The first paragraph talks about the aim of the site. To match the customer with a recipe that has been tried and tested by our own chefs. This gives the customer a solid idea of what to expect from the site.
 
 - This is coupled with an image of one of the chefs musing over some of the fantastic recipes he's testing that day.
 
-- The second paragraph talks about Nutrition. It explains that all the recipes are put togeter with good nutrition at their core. This reassures the customers that the recipes supplied are going to be healthy which entices more health concerned customers to the site.
+- The second paragraph talks about Nutrition. It explains that all the recipes are put together with good nutrition at their core. This reassures the customers that the recipes supplied are going to be healthy which entices more health concerned customers to the site.
 
 - This is coupled with an image of fresh produce to compliment the idea of a balanced diet and healthy nutrition.
 
@@ -242,7 +242,7 @@ Mobile Version:
 
 ![Get Onboard Form image](assets/readme-images/get-onboard-form-mobile.png)
 
-- The form allows the customer to submit their information so they can receive our newsletter. 
+- The form allows the customer to submit their information, so they can receive our newsletter. 
 
 - Everything is laid out nice and easy and the sign up is kept nice and simple with a name, surname and email input and a radio button selection on the customers favourite course. Keeping this simple is essential as lengthly signup pages can discourage customers.
 
@@ -275,6 +275,7 @@ Mobile Version:
 
 * [GitPod](https://gitpod.io/)
     - GitPod was used to write the code and for pushing to Github.
+
 * [GitHub](https://github.com/)
     - Github was used to keep the repository after pushing.
 
@@ -357,11 +358,11 @@ Test on our-recipes.html:
 ![our recipes test 1](assets/readme-images/test-our-recipes-pt.1.png)
 ![our recipes test 2](assets/readme-images/test-our-recipes-pt.2.png)
 
-- The W3C Markup Validator found that the sections for the circle images had no headings so I added them.
+- The W3C Markup Validator found that the sections for the circle images had no headings, so I added them.
 
 - There was a unused /i which i deleted.
 
-- The same warning as the initial results from the index.html test suggested I added headings to the social network and contact us section so I did.
+- The same warning as the initial results from the index.html test suggested I added headings to the social network and contact us section, so I did.
 
 - The results of these adjustments gave a no errors or warnings result when the test was repeated.
 
@@ -407,7 +408,7 @@ Test on style.css:
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
-    - Chrome DevTools was used right throught the development of this project to assist with troubleshooting code and styling.
+    - Chrome DevTools was used right through out the development of this project to assist with troubleshooting code and styling.
 
 * Responsiveness
     
@@ -447,15 +448,11 @@ Test on style.css:
 
         No issues with appearance, functionality or responsiveness were found.
 
-        - ****
+        - **Acer Aspire V**
 
         No issues with appearance, functionality or responsiveness were found.
 
-        - **iPad Pro 12.9"**
-
-        No issues with appearance, functionality or responsiveness were found.
-
-        - **iPad Pro 10.5"**
+        - **iPad Pro 13"**
 
         No issues with appearance, functionality or responsiveness were found.
 
@@ -463,9 +460,10 @@ Test on style.css:
         
         No issues with appearance, functionality or responsiveness were found.
 
-        - **iPhone 7**
+        - **IPhone 15**
 
         No issues with appearance, functionality or responsiveness were found.
+
 
 * Common Elements Testing
 
@@ -473,36 +471,104 @@ Test on style.css:
         
         - **Header**
 
-            - By clicking on the Scrumptious Logo you are directed to the home page.
+            - By clicking on the Scrumptious Logo you are directed to the home page. A useful option if the customer gets lost.
 
         - **Navigation Bar**
 
-            - Hovering with the cursor over different options on the navigation bar will cause them to highlight.
+            - Hovering the cursor over Home (unless it's the active page) highlights the word.
 
-            - Clicking on one of the options within the navigation bar will direct you to its corresponding page.
+            - Hovering the cursor over Our Recipes (unless it's the active page) highlights the word.
 
-            - The page that you are currently on is greyed out as an option in the navigation bar.
+            - Hovering the cursor over Newsletter (unless it's the active page) highlights the word.
+
+            - Clicking on the Home option brings the user to the home page.
+
+            - Clicking on the Our Recipes option brings the user to the our recipes page.
+
+            - Clicking on the Newsletter option brings the user to the newsletter page.
+
+            - The page that the user is currently on is greyed out as an option in the navigation bar.
+
+            - When the page is viewed on a small tablet or mobile device the nav bar is hidden.
+
+            - Clicking on the burger button displays the nav bar and it drops down vertically below the header.
         
         - **Footer**
-        
-            - By clicking on one of the social media icons you are directed to the relevant social media website.
+    
+            - By Hovering over the Facebook icon with the cursor it highlights. Clicking on it then opens a new tab which immediately directs the user to the Facebook homepage (Will be changed to the Scrumptious Facebook page in future).
+
+            - By hovering over the X icon with the cursor it highlights. Clicking on it then opens a new tab which immediately directs the user to the X homepage (Will be changed to the Scrumptious X page in future).
+
+            - By hovering over the Youtube icon with the cursor it highlights. Clicking on it then opens a new tab which immediately directs the user to the Youtube homepage (Will be changed to the Scrumptious Youtube page in the future).
+
+            - By hovering over the Instagram icon with the cursor it highlights . Clicking on it then opens a new tab which immediately directs the user to the Instagram homepage (Will be changed to the Scrumptious Instagram page in the future). 
 
             - By clicking on the email address in the contact us section of the footer you are brought to the compose an email section of your computers email software.
 
+            - When the pages are viewed on a mobile device the font size increases on the contact us info. They also stack in a column formation with the social media icons and there's a border between them.
+
+            - When the pages are viewed on a desktop the icons spread out and flip to a row formation with the contact us info, and a small border line comes between them.
+
+    - Home Page
+
+        - The page responds to different device sizes.
+
+        - On a mobile device:
+            
+            - The Hero images display one on top of the other with the heading overlapping between them.
+
+            - The Our Aim, Nutrition and Not Convinced? paragraphs stack up in column formation with their respective images underneath each one.
+
+        - On a tablet or laptop:
+
+            - The hero images display in a row and the title sits within the brownie image at the bottom.
+
+            - The Our Aim, Nutrition and Not Convinced? paragraphs pair off with their respective images and display as a row with their image. These paragraphs and images are then displayed in a column over one another. The order of the paragraph and image of the Nutrition section are reversed.
+
+        - On a Larger desktop:
+
+            - The Images accompanying the paragraphs get bigger to occupy more screen space.     
+
     - Our Recipes Page
 
-        - 
+        - The hero image, heading and the descriptive paragraph remain the same across all devices, adjusting properly for screen size.
 
-        - 
+        - The page responds to different device sizes.
+
+        - On a mobile device:
+
+            - The recipe and its image display in a column formation, and they too are in columns with the other recipes.
+
+            - All the information inside the recipe is displayed in a column formation.
+
+        - On a tablet or larger:
+
+            - Within the recipe the Ingredients and Cooking Info flip to a row formation. they then display over the Method in a column formation.
+
+            - The recipe displays alongside its image in a row formation with the order reversed for the Main Course.
+
+            - Each course is displayed in a column formation as in the mobile version.
 
     - Newsletter Page
 
-        - When filling out the Get Onboard form on the Newsletter page you are required to fill out each input before submitting. 
+        - When filling out the Get Onboard form on the Newsletter page you are required to fill out each input before submitting.
+
+            - When name, surname or email address are left blank a warning pops up requiring you to enter information
+
+            - When any input put into the email section is not an email address (doesn't contain an @ symbol) a warning will display requiring you to correct your input. 
         
         - Hovering with your cursor over the Get Cookin' button causes its colours to reverse.
 
         - Clicking the Get Cookin' button causes its to go slightly transparent.
-        
+
+        - The hero image, title and brief description remain the same across all devices and adjust to the different sizes.
+
+        - The page responds to different device sizes.
+
+            - On a mobile device the signup image and Get Onboard Form display in a column formation.
+
+            - On a tablet or larger the signup image and Get On Board form flip into a row formation.
+
 
 [Back to top ⇧](#Scrumptious!)
 
@@ -575,7 +641,7 @@ Newsletter Page:
 [Back to top ⇧](#Scrumptious!)
 
 
-## Acknowledgements
+## Acknowledgments
 
 * My housemate, for his support and guidance throughout this project.
 
