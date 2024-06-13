@@ -150,11 +150,11 @@ Mobile Footer:
 
 ![Mobile Footer image](assets/readme-images/mobile-footer.png)
 
-    - The footer contains links to social media sites. These links highlight when you hover over with the cursor and each link is displayed as an icon relating to the relative social media site.
+- The footer contains links to social media sites. These links highlight when you hover over with the cursor and each link is displayed as an icon relating to the relative social media site.
 
-    - Clicking one of the social media icons opens up the corresponding site in a separate tab. This is a useful feature so the customer can easily navigate back to the Scrumptious! site via the old tab.
- 
-    - The footer has contact information for the company, with a clickable link for email. The link opens up the customers default email program and starts a new mail with the sites email as it's recipient. This feature is good for the user experience.
+- Clicking one of the social media icons opens up the corresponding site in a separate tab. This is a useful feature so the customer can easily navigate back to the Scrumptious! site via the old tab.
+
+- The footer has contact information for the company, with a clickable link for email. The link opens up the customers default email program and starts a new mail with the sites email as it's recipient. This feature is good for the user experience.
 
 ### Home Page
 
@@ -222,7 +222,7 @@ Accompanying Image:
 
 - Each recipe has a section for the ingredients, the cooking information and the instructions. They are laid out neatly for easy reading. This is key as the accessibility of each recipe to the customer is part of the main goals of the site.
 
--Each recipe also has an accompanying image of the finished product. This is essential not only for the customer to be able to compare their work but also to entice them to try the recipe.
+- Each recipe also has an accompanying image of the finished product. This is essential not only for the customer to be able to compare their work but also to entice them to try the recipe.
 
 ### Newsletter Page
 
@@ -391,9 +391,9 @@ Test on style.css:
 
 * Lighthouse reports
 
-    - **Landing Page**
+    - **Home Page**
 
-    ![Lighthouse report for landing page image](assets/readme-images/index-lighthouse.png)
+    ![Lighthouse report for Home page image](assets/readme-images/index-lighthouse.png)
 
     - **Our Recipes Page**
 
