@@ -77,7 +77,7 @@ Visit the deployed website [https://snappyjumper.github.io/Scrumptious/.](https:
 ### Color Scheme
 ![Color scheme image](assets/readme-images/colour-pallet.png)
 
-The colours used on the website are above. I used the two shades of green, India Green and Kelly Green(#028A0F and #03AC15), to colour the headings and the nav bar in the mobile version of the site respectively. I used the shade of Red Carmine to colour the banners and boxes throughout the website as well as the email link within the footer. For the text I stuck with a white colour (#FFFFFF).
+The colours used on the website are above. I used the two shades of green, India Green and Kelly Green(#028A0F and #03AC15), to colour the headings and the nav bar in the mobile version of the site respectively. I used the shade of Red Carmine to colour the banners and boxes throughout the website as well as the email link within the footer. These colours were chosen because of their familiar shades to fresh produce like peppers and brocolli. For the text I stuck with a white colour (#FFFFFF). 
 
 ### Typography
 
