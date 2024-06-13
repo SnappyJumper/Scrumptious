@@ -634,9 +634,11 @@ Newsletter Page:
 
 * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were both used on a regular basis to assist with development of the code.
 
-* [Code Institute](https://www.codeinstitute.ie/) their tutorials and sample project were useful for both the development and inspiration of my own.
+* [Code Institute](https://www.codeinstitute.ie/) their tutorials and sample project were useful for both the development and inspiration of my own. The Sample Love Running project was used to help develop my code.
 
 * [Codecademy](https://www.codecademy.com/) was used to help with trying to further understand some of the material from the Code Institute course.
+
+* [Get CSS Scan](https://getcssscan.com/css-buttons-examples) was used to provide a template for my submit button styling.
 
 [Back to top ⇧](#Scrumptious!)
 

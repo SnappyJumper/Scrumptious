@@ -73,6 +73,7 @@ nav {
 }
 
 /*Nav Toggle*/
+/*This code is based on the same button used in the Love Running Sample Project from Code Institute*/
 /*when nav-toggle is ticked nav will display*/
 #nav-toggle:checked~nav {
     display: block;
@@ -460,6 +461,7 @@ ul {
 }
 
 /*The submit button*/
+/*submit button design from https://getcssscan.com/css-buttons-examples*/
 .button-24 {
     background: #028A0F;
     border: 1px solid #FFFFFF;
